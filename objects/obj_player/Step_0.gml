@@ -114,14 +114,14 @@ if (vx != 0 || vy != 0) {
 	
 // Check for collision with NPCs
 global.nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_npc,false,true);
-
+show_debug_message(global.nearbyNPC);
 // Revisar si hay un NPC amistoso cerca
 if (global.nearbyNPC) {
     if (!hasShownFriendlyPrompt) { // Mostrar si no se ha mostrado antes
         npcPrompt = scr_showPrompt(global.nearbyNPC, global.nearbyNPC.x, global.nearbyNPC.y - 350);
         hasShownFriendlyPrompt = true;
-        hasShownEnemyPrompt = false; // Asegurarnos de que no muestre el enemigo al mismo tiempo
-        show_debug_message("El jugador ha encontrado un NPC amistoso!");
+        hasShownEnemyPrompt = false;
+        
     }
 } else if (hasShownFriendlyPrompt) {
     // Desaparecer el prompt si ya no está cerca del NPC

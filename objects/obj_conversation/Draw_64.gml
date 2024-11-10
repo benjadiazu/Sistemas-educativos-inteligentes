@@ -33,6 +33,11 @@ if (global.currentDialogue != undefined) {
 				global.currentDialogue = undefined;
 				
 				if (global.nearbyNPC.tipo_npc == "enemigo"){
+					show_debug_message("nombre npc en conversation:")
+					show_debug_message(global.nearbyNPC.dialogoNPC);
+					show_debug_message("id npc en conversation:")
+					show_debug_message(global.nearbyNPC.idNPC);
+					show_debug_message(global.nearbyNPC);
 					room_goto(rm_problema);
 				}
 	        }

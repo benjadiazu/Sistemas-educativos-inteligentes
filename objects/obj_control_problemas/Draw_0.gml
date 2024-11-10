@@ -1,9 +1,9 @@
-draw_text(545, 655, pregunta + "");
+draw_text(450, (display_get_gui_height() / 2 - 450), pregunta_1 + "");
 
-draw_text(600, 600, alternativas[0]);
-draw_text(650, 600, alternativas[1]);
-draw_text(600, 650, alternativas[2]);
-draw_text(650, 650, alternativas[3]);
+draw_text(600, 450, alternativas[0]);
+draw_text(650, 450, alternativas[1]);
+draw_text(600, 550, alternativas[2]);
+draw_text(650, 550, alternativas[3]);
 
 /*
 draw_sprite_ext(Ejercicio_ejemplo, 0, 100, 50, 0.5,0.5,0,c_white,1);
