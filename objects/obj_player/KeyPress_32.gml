@@ -1,24 +1,27 @@
 /// @description Context-sensitive actions
 
 
-var _text, _seq;
+var _text, _seq, _text_instance;
 
-// If player has control
+// Si el jugador tiene control:
 if (global.playerControl == true) {
-    // If near an NPC
-    if (nearbyNPC) {
-        // If NPC is still available
-        if (nearbyNPC.myState == npcState.normal) {
-            //_text = nearbyNPC.myText;
-            if (!instance_exists(obj_text_es)) {
-				global.playerControl = false;
-				var text_instance = instance_create_depth(nearbyNPC.x, nearbyNPC.y - 400, -10000, obj_text_es);
-				show_debug_message("obj_text_es creado.");
-                //iii = instance_create_depth(nearbyNPC.x, nearbyNPC.y - 400, -10000, obj_textbox);
-                // iii.textToShow = _text;
-            }
-        }
-        
+    // Si hay un NPC cerca
+    if (global.nearbyNPC) {
+			//global.playerControl = false; //para que el jugador se quede quieto
+			show_debug_message(global.nearbyNPC.idNPC);
+			var npcID = global.nearbyNPC.idNPC;
+			var dialogues = global.dialogues[? global.nearbyNPC.dialogoNPC];
+			show_debug_message(dialogues);
+			
+			global.currentDialogue = dialogues;
+			global.currentMessageIndex = 0;
+			global.playerControl = false;
+			instance_create_depth(global.nearbyNPC.x, global.nearbyNPC.y - 400, -10000, obj_conversation);
+				
+			//_text_instance = instance_create_depth(global.nearbyNPC.x, global.nearbyNPC.y - 400, -10000, obj_text_es);
+			//show_debug_message("obj_text_es creado.");
+    }
+			
 		/*
         // If NPC is "done"
         if (nearbyNPC.myState == npcState.done) {
@@ -34,5 +37,4 @@ if (global.playerControl == true) {
             }
         }
 		*/
-    }
 }

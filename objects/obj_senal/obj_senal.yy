@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Se_al",
-    "path":"sprites/Se_al/Se_al.yy",
+    "name":"spr_senal",
+    "path":"sprites/spr_senal/spr_senal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Cactur",
-    "path":"sprites/Cactur/Cactur.yy",
+    "name":"spr_cactus",
+    "path":"sprites/spr_cactus/spr_cactus.yy",
   },
   "spriteMaskId":null,
   "visible":true,

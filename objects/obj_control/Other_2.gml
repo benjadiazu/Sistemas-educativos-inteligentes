@@ -42,4 +42,5 @@ enum npcState {
 	normal,
 	done,
 	}
-	
+
+global.map_preguntas = preguntas();

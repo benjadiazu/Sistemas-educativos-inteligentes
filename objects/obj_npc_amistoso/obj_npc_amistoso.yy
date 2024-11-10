@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_npc_amistoso",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_npc_amistoso",
   "overriddenProperties":[],
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PNJ_amistoso",
-    "path":"sprites/PNJ_amistoso/PNJ_amistoso.yy",
+    "name":"PNJ_amistoso_",
+    "path":"sprites/PNJ_amistoso_/PNJ_amistoso_.yy",
   },
   "spriteMaskId":null,
   "visible":true,

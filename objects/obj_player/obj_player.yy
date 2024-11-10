@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"jackson_down_1",
-    "path":"sprites/jackson_down_1/jackson_down_1.yy",
+    "name":"jugador1",
+    "path":"sprites/jugador1/jugador1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

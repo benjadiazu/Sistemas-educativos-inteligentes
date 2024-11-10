@@ -1,5 +1,11 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+draw_text(545, 655, pregunta + "");
+
+draw_text(600, 600, alternativas[0]);
+draw_text(650, 600, alternativas[1]);
+draw_text(600, 650, alternativas[2]);
+draw_text(650, 650, alternativas[3]);
+
+/*
 draw_sprite_ext(Ejercicio_ejemplo, 0, 100, 50, 0.5,0.5,0,c_white,1);
 draw_set_font(fuente);
 
@@ -16,3 +22,4 @@ for (var i = 0; i < array_length_1d(alternativas); i++) {
 	
     draw_text(pos_x, pos_y, alternativas[i]); // Dibujar cada alternativa
 }
+*/

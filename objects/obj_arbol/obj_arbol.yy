@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Arbol",
-    "path":"sprites/Arbol/Arbol.yy",
+    "name":"spr_arbol",
+    "path":"sprites/spr_arbol/spr_arbol.yy",
   },
   "spriteMaskId":null,
   "visible":true,

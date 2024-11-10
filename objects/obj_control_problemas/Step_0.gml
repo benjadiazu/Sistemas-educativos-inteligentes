@@ -1,6 +1,4 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
-
+/*
 if (keyboard_check_pressed(vk_up)){
     opcion_seleccionada -= 1; // Mover hacia arriba
     if (opcion_seleccionada < 0) {
@@ -42,4 +40,6 @@ if (keyboard_check_pressed(vk_enter)) {
          show_message("Incorrecto. Inténtalo de nuevo.");
     }
 	room_goto_previous()
+	global.playerControl = true;
 }
+*/

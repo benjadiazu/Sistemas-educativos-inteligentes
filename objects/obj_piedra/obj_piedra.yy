@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Piedra",
-    "path":"sprites/Piedra/Piedra.yy",
+    "name":"spr_piedra",
+    "path":"sprites/spr_piedra/spr_piedra.yy",
   },
   "spriteMaskId":null,
   "visible":true,

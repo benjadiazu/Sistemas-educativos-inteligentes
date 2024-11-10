@@ -2,10 +2,18 @@
 
 // Check keys for movement
 if (global.playerControl == true) {
+	if (keyboard_check(vk_right) || keyboard_check(vk_left) || keyboard_check(vk_up) || keyboard_check(vk_down)){
+		image_speed = 0.9;	
+	}
+	else{
+		image_speed = 0;
+	}
+
 	moveRight = keyboard_check(vk_right);
 	moveUp = keyboard_check(vk_up);
 	moveLeft = keyboard_check(vk_left);
 	moveDown = keyboard_check(vk_down);
+	
 	}
 if (global.playerControl == false) {
 	moveRight = 0;
@@ -13,7 +21,8 @@ if (global.playerControl == false) {
 	moveLeft = 0;
 	moveDown = 0;
 	}
-	
+
+/*	
 // Run with Shift key
 running = keyboard_check(vk_shift);
 
@@ -37,7 +46,7 @@ if (running == false) {
 		}
 	startDust = 0;
 	}
-
+*/
 // Calculate movement
 vx = ((moveRight - moveLeft) * (walkSpeed+runSpeed) * (1-carryLimit));
 vy = ((moveDown - moveUp) * (walkSpeed+runSpeed) * (1-carryLimit));
@@ -104,55 +113,24 @@ if (vx != 0 || vy != 0) {
 	}
 	
 // Check for collision with NPCs
-nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_npc,false,true);
-if nearbyNPC {
-	if (npcPrompt == noone || npcPrompt == undefined) {
-		npcPrompt = scr_showPrompt(nearbyNPC,nearbyNPC.x,nearbyNPC.y-450);
-		}
-	show_debug_message("obj_player has found an NPC!");
-	}
-if !nearbyNPC {
-	// Reset greeting
-	if (hasGreeted == true) {
-		hasGreeted = false;
-		}
-	// Get rid of prompt
-	scr_dismissPrompt(npcPrompt,0);
-	show_debug_message("obj_player hasn't found anything");
+global.nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_npc,false,true);
+
+// Revisar si hay un NPC amistoso cerca
+if (global.nearbyNPC) {
+    if (!hasShownFriendlyPrompt) { // Mostrar si no se ha mostrado antes
+        npcPrompt = scr_showPrompt(global.nearbyNPC, global.nearbyNPC.x, global.nearbyNPC.y - 350);
+        hasShownFriendlyPrompt = true;
+        hasShownEnemyPrompt = false; // Asegurarnos de que no muestre el enemigo al mismo tiempo
+        show_debug_message("El jugador ha encontrado un NPC amistoso!");
+    }
+} else if (hasShownFriendlyPrompt) {
+    // Desaparecer el prompt si ya no está cerca del NPC
+    if (instance_exists(npcPrompt)) {
+        scr_dismissPrompt(npcPrompt, 0);
+        npcPrompt = noone;
+    }
+    hasShownFriendlyPrompt = false;
 }
-	
-// Check for collision with Items
-nearbyItem = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_item,false,false);
-if (nearbyItem && !nearbyNPC) {
-	// Pop up prompt
-	if (itemPrompt == noone || itemPrompt == undefined) {
-		show_debug_message("obj_player has found an item!");
-		itemPrompt = scr_showPrompt(nearbyItem,nearbyItem.x,nearbyItem.y-300);
-		}
-	}
-if (!nearbyItem || nearbyNPC) {
-	// Get rid of prompt
-	scr_dismissPrompt(itemPrompt,1);
-	}
-	
-// If picking up an item
-if (myState == playerState.pickingUp) {
-	if (image_index >= image_number-1) {
-		myState = playerState.carrying;
-		global.playerControl = true;
-		}
-	}
-	
-// If putting down an item
-if (myState == playerState.puttingDown) {
-	// Reset weight
-	carryLimit = 0;
-	// Reset my state once animation finishes
-	if (image_index >= image_number-1) {
-		myState = playerState.idle;
-		global.playerControl = true;
-		}
-	}
 
 // Auto-choose Sprite based on state and direction
 sprite_index = playerSpr[myState][dir];

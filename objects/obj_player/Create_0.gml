@@ -9,7 +9,7 @@ moveRight = 0;
 moveLeft = 0;
 moveUp = 0;
 moveDown = 0;
-nearbyNPC = noone;
+global.nearbyNPC = noone;
 lookRange = 30;
 hasGreeted = false;
 npcPrompt = noone;
@@ -25,6 +25,10 @@ runMax = 12;
 running = false;
 startDust = 0;
 espacio_pulsado = 0;
+hasShownFriendlyPrompt = false;
+hasShownEnemyPrompt = false;
+vidas = 3;
+
 
 // Create listener and set orientation
 //audio_listener_set_position(0,x,y,0);
@@ -36,20 +40,20 @@ espacio_pulsado = 0;
 //playerSpr[playerState.idle][1] = spr_player_idle_up;
 //playerSpr[playerState.idle][2] = spr_player_idle_left;
 //playerSpr[playerState.idle][3] = spr_player_idle_down;
-playerSpr[playerState.idle][0] = jackson_right_1;
-playerSpr[playerState.idle][1] = jackson_up_1;
-playerSpr[playerState.idle][2] = jackson_left_1;
-playerSpr[playerState.idle][3] = jackson_down_1;
+playerSpr[playerState.idle][0] = jugador3;
+playerSpr[playerState.idle][1] = jugador7;
+playerSpr[playerState.idle][2] = jugador5;
+playerSpr[playerState.idle][3] = jugador1;
 
 // Walking
 //playerSpr[playerState.walking][0] = spr_player_walk_right;
 //playerSpr[playerState.walking][1] = spr_player_walk_up;
 //playerSpr[playerState.walking][2] = spr_player_walk_left;
 //playerSpr[playerState.walking][3] = spr_player_walk_down;
-playerSpr[playerState.walking][0] = jackson_right_1;
-playerSpr[playerState.walking][1] = jackson_up_1;
-playerSpr[playerState.walking][2] = jackson_left_1;
-playerSpr[playerState.walking][3] = jackson_down_1;
+playerSpr[playerState.walking][0] = jugador3;
+playerSpr[playerState.walking][1] = jugador7;
+playerSpr[playerState.walking][2] = jugador5;
+playerSpr[playerState.walking][3] = jugador1;
 
 /*
 // Picking up
