@@ -1,34 +1,42 @@
-/*
-if (keyboard_check_pressed(vk_up)){
-    opcion_seleccionada -= 1; // Mover hacia arriba
-    if (opcion_seleccionada < 0) {
-        opcion_seleccionada = array_length_1d(alternativas) - 1;
-    }
+
+if (keyboard_check_pressed(vk_up)) {
+    if (indice > 1) indice -= 2; // Mover arriba si está en la segunda fila
 }
-
-if (keyboard_check_pressed(vk_down)){
-    opcion_seleccionada += 1; // Mover hacia abajo
-    if (opcion_seleccionada >= array_length_1d(alternativas)) {
-        opcion_seleccionada = 0;
-    }
+if (keyboard_check_pressed(vk_down)) {
+    if (indice < 2) indice += 2; // Mover abajo si está en la primera fila
 }
-
-
 if (keyboard_check_pressed(vk_left)) {
-    opcion_seleccionada -= 1; // Mover hacia la izquierda
-    if (opcion_seleccionada < 0) {
-        opcion_seleccionada = array_length_1d(alternativas) - 1; 
-    }
+    if (indice % 2 != 0) indice -= 1; // Mover a la izquierda si no está en la primera columna
+}
+if (keyboard_check_pressed(vk_right)) {
+    if (indice % 2 == 0) indice += 1; // Mover a la derecha si está en la primera columna
 }
 
-if (keyboard_check_pressed(vk_right)) {
-    opcion_seleccionada += 1; // Mover hacia la derecha
-    if (opcion_seleccionada >= array_length_1d(alternativas)) {
-        opcion_seleccionada = 0;
+if (keyboard_check_pressed(vk_space)) {
+    // Verifica si la alternativa seleccionada es la correcta
+    if (alternativas[indice] == respuesta_actual) {
+        show_debug_message("¡Respuesta correcta!");
+        
+        // Pasa a la siguiente pregunta
+        indice_pregunta++;
+        
+        if (indice_pregunta >= array_length(preguntas_npc)) {
+            show_debug_message("¡Todas las preguntas respondidas!");
+			global.nearbyNPC.estado = "derrotado";
+            room_goto_previous();
+        }
+
+    } else {
+        show_debug_message("Respuesta incorrecta.");
+        //QUITAR VIDAS
     }
+    
+    // Restablece el índice de la alternativa seleccionada a 0 para la siguiente pregunta
+    indice = 0;
 }
 
 // Confirmar la selección con la tecla ENTER
+/*
 if (keyboard_check_pressed(vk_enter)) {
     var seleccion = alternativas[opcion_seleccionada];
     

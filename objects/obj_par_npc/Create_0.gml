@@ -4,3 +4,4 @@ tipo_npc = "";
 vidas = 1;
 nombreNPC = "";
 dialogoNPC = "";
+estado = "activo";

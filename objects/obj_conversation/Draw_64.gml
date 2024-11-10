@@ -32,7 +32,8 @@ if (global.currentDialogue != undefined) {
 	            global.playerControl = true; // Permitir movimiento del jugador nuevamente
 				global.currentDialogue = undefined;
 				
-				if (global.nearbyNPC.tipo_npc == "enemigo"){
+				//Si es enemigo o boss, se abren sus preguntas.
+				if ((global.nearbyNPC.tipo_npc == "enemigo" || global.nearbyNPC.tipo_npc == "jefe") && global.nearbyNPC.estado != "derrotado"){ 
 					show_debug_message("nombre npc en conversation:")
 					show_debug_message(global.nearbyNPC.dialogoNPC);
 					show_debug_message("id npc en conversation:")
