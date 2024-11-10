@@ -1,71 +1,113 @@
 {
    "npc_enemigo_1": {
-       "questions": [
-           {
-               "id": 1,
+       "questions": {
+           "id1": {
                "pregunta": "¿Cuanto es 2 + 2?",
-               "opciones": ["4", "6", "8", "10"],
+               "opciones":
+               {
+                 "op1": 4,
+                 "op2": 6,
+                 "op3": 8,
+                 "op4": 10
+               },
                "respuesta_correcta": 4
            },
-           {
-              "id": 2,
+           "id2": {
                "pregunta": "¿Cuanto es 3 * 2?",
-               "opciones": ["4", "6", "8", "10"],
+               "opciones":
+               {
+                 "op1": 4,
+                 "op2": 6,
+                 "op3": 8,
+                 "op4": 10
+               },
                "respuesta_correcta": 6 
            },
-           {
-               "id": 3,
+           "id3": {
                "pregunta": "¿Cuanto es 3 x 3?",
-               "opciones": ["4", "6", "9", "10"],
+               "opciones":
+               {
+                 "op1": 4,
+                 "op2": 6,
+                 "op3": 8,
+                 "op4": 10
+               },
                "respuesta_correcta": 9
            }
-       ],
-       "errores": []
+        }
    },
    "npc_enemigo_2": {
-       "questions": [
-           {
-               "id": 4,
+       "questions": {
+           "id4": {
                "pregunta": "¿Cuanto es 4 x 4?",
-               "opciones": ["4", "6", "16", "10"],
+               "opciones":
+               {
+                 "op1": 4,
+                 "op2": 6,
+                 "op3": 8,
+                 "op4": 10
+               },
                "respuesta_correcta": 16
            },
-           {
-              "id": 5,
+           "id5": {
                "pregunta": "¿Cuanto es 1 + 1?",
-               "opciones": ["2", "6", "8", "10"],
+               "opciones":
+               {
+                 "op1": 4,
+                 "op2": 6,
+                 "op3": 8,
+                 "op4": 10
+               },
                "respuesta_correcta": 2
            },
-           {
-               "id": 6,
+           "id6": {
                "pregunta": "¿Cuanto es 4 + 2?",
-               "opciones": ["4", "6", "9", "10"],
+               "opciones":
+               {
+                 "op1": 4,
+                 "op2": 6,
+                 "op3": 8,
+                 "op4": 10
+               },
                "respuesta_correcta": 6
            }
-       ],
-       "errores": []
+        }
    },
    "npc_enemigo_3": {
-       "questions": [
-           {
-               "id": 4,
+       "questions": {
+           "id7": {
                "pregunta": "¿Cuanto es 10 + 2?",
-               "opciones": ["4", "6", "12", "10"],
+               "opciones":
+               {
+                 "op1": 4,
+                 "op2": 6,
+                 "op3": 8,
+                 "op4": 10
+               },
                "respuesta_correcta": 12
            },
-           {
-              "id": 5,
+           "id8": {
                "pregunta": "¿Cuanto es 5 + 5?",
-               "opciones": ["2", "6", "8", "10"],
+               "opciones":
+               {
+                 "op1": 4,
+                 "op2": 6,
+                 "op3": 8,
+                 "op4": 10
+               },
                "respuesta_correcta": 10
            },
-           {
-               "id": 6,
+           "id9": {
                "pregunta": "¿Cuanto es 1 x 1?",
-               "opciones": ["4", "6", "1", "10"],
+               "opciones":
+               {
+                 "op1": 4,
+                 "op2": 6,
+                 "op3": 8,
+                 "op4": 10
+               },
                "respuesta_correcta": 1
            }
-       ],
-       "errores": []
+        }
    }
 }
