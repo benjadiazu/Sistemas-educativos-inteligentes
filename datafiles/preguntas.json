@@ -176,5 +176,439 @@
         }
       }
     }
+  },
+  "npc_enemigo_2_1": {
+    "id_npc6":{
+      "questions": {
+        "id1": {
+            "pregunta": "¿Cuanto es 2 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 4
+        },
+        "id2": {
+            "pregunta": "¿Cuanto es 3 * 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 6 
+        },
+        "id3": {
+            "pregunta": "¿Cuanto es 3 x 3?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 9,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 9
+        }
+      }
+    }
+  },
+  "npc_enemigo_2_2": {
+    "id_npc7":{
+      "questions": {
+        "id1": {
+            "pregunta": "¿Cuanto es 2 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 4
+        },
+        "id2": {
+            "pregunta": "¿Cuanto es 3 * 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 6 
+        },
+        "id3": {
+            "pregunta": "¿Cuanto es 3 x 3?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 9,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 9
+        }
+      }
+    }
+  },
+  "npc_enemigo_2_3": {
+    "id_npc8":{
+      "questions": {
+        "id1": {
+            "pregunta": "¿Cuanto es 2 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 4
+        },
+        "id2": {
+            "pregunta": "¿Cuanto es 3 * 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 6 
+        },
+        "id3": {
+            "pregunta": "¿Cuanto es 3 x 3?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 9,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 9
+        }
+      }
+    }
+  },
+  "npc_enemigo_2_4": {
+    "id_npc9":{
+      "questions": {
+        "id1": {
+            "pregunta": "¿Cuanto es 2 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 4
+        },
+        "id2": {
+            "pregunta": "¿Cuanto es 3 * 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 6 
+        },
+        "id3": {
+            "pregunta": "¿Cuanto es 3 x 3?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 9,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 9
+        }
+      }
+    }
+  },
+  "npc_boss_2": {
+  "id_npc10":{
+      "questions": {
+        "id1": {
+            "pregunta": "¿Cuanto es 10 x 10?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 100
+            },
+            "respuesta_correcta": 100
+        },
+        "id2": {
+            "pregunta": "¿Cuanto es 5 + 5?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 10
+        },
+        "id3": {
+            "pregunta": "¿Cuanto es 1 x 1?",
+            "opciones":
+            {
+              "op1": 1,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 1
+        },
+        "id4": {
+            "pregunta": "¿Cuanto es 20 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 22
+            },
+            "respuesta_correcta": 22
+        },
+        "id5": {
+            "pregunta": "¿Cuanto es 30 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 32
+            },
+            "respuesta_correcta": 32
+        }
+      }
+    }
+  },
+  "npc_enemigo_3_1": {
+    "id_npc11":{
+      "questions": {
+        "id1": {
+            "pregunta": "¿Cuanto es 2 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 4
+        },
+        "id2": {
+            "pregunta": "¿Cuanto es 3 * 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 6 
+        },
+        "id3": {
+            "pregunta": "¿Cuanto es 3 x 3?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 9,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 9
+        }
+      }
+    }
+  },
+  "npc_enemigo_3_2": {
+    "id_npc12":{
+      "questions": {
+        "id1": {
+            "pregunta": "¿Cuanto es 2 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 4
+        },
+        "id2": {
+            "pregunta": "¿Cuanto es 3 * 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 6 
+        },
+        "id3": {
+            "pregunta": "¿Cuanto es 3 x 3?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 9,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 9
+        }
+      }
+    }
+  },
+  "npc_enemigo_3_3": {
+    "id_npc13":{
+      "questions": {
+        "id1": {
+            "pregunta": "¿Cuanto es 2 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 4
+        },
+        "id2": {
+            "pregunta": "¿Cuanto es 3 * 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 6 
+        },
+        "id3": {
+            "pregunta": "¿Cuanto es 3 x 3?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 9,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 9
+        }
+      }
+    }
+  },
+  "npc_enemigo_3_4": {
+    "id_npc14":{
+      "questions": {
+        "id1": {
+            "pregunta": "¿Cuanto es 2 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 4
+        },
+        "id2": {
+            "pregunta": "¿Cuanto es 3 * 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 6 
+        },
+        "id3": {
+            "pregunta": "¿Cuanto es 3 x 3?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 9,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 9
+        }
+      }
+    }
+  },
+  "npc_boss_3": {
+  "id_npc15":{
+      "questions": {
+        "id1": {
+            "pregunta": "¿Cuanto es 10 x 10?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 100
+            },
+            "respuesta_correcta": 100
+        },
+        "id2": {
+            "pregunta": "¿Cuanto es 5 + 5?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 10
+        },
+        "id3": {
+            "pregunta": "¿Cuanto es 1 x 1?",
+            "opciones":
+            {
+              "op1": 1,
+              "op2": 6,
+              "op3": 8,
+              "op4": 10
+            },
+            "respuesta_correcta": 1
+        },
+        "id4": {
+            "pregunta": "¿Cuanto es 20 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 22
+            },
+            "respuesta_correcta": 22
+        },
+        "id5": {
+            "pregunta": "¿Cuanto es 30 + 2?",
+            "opciones":
+            {
+              "op1": 4,
+              "op2": 6,
+              "op3": 8,
+              "op4": 32
+            },
+            "respuesta_correcta": 32
+        }
+      }
+    }
   }
 }

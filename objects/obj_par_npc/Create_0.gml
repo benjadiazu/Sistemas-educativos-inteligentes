@@ -1,5 +1,4 @@
-idNPC = global.siguiente_id;
-global.siguiente_id += 1;
+idNPC = 0;
 tipo_npc = "";
 vidas = 1;
 nombreNPC = "";

@@ -16,7 +16,10 @@ if (keyboard_check_pressed(vk_space)) {
     // Verifica si la alternativa seleccionada es la correcta
     if (alternativas[indice] == respuesta_actual) {
         show_debug_message("¡Respuesta correcta!");
-        
+        mensaje_temporal = "¡Respuesta correcta!";
+        color_mensaje = c_green;  // Color verde para respuesta correcta
+        tiempo_mensaje = 120; // Mostrar mensaje durante 120 frames
+		
         // Pasa a la siguiente pregunta
         indice_pregunta++;
         
@@ -24,16 +27,21 @@ if (keyboard_check_pressed(vk_space)) {
             show_debug_message("¡Todas las preguntas respondidas!");
 			global.nearbyNPC.estado = "derrotado";
 			global.contador_enemigos_derrotados += 1;
-            room_goto_previous();
+            room_goto(global.room_anterior);
         }
 
     } else {
         show_debug_message("Respuesta incorrecta.");
+		mensaje_temporal = "Respuesta incorrecta, intentalo de nuevo.";
+		color_mensaje = c_red;
+		tiempo_mensaje = 120;
+		
+		
 		//Descontar vidas
 		global.vidas -= 1;
 		if (global.vidas <= 0){
 			global.vidas = 3;
-			room_goto_previous()	
+			room_goto(global.room_anterior);
 		}
     }
     // Restablece el índice de la alternativa seleccionada a 0 para la siguiente pregunta

@@ -1,6 +1,6 @@
 // Configuración general de color y transparencia
 draw_set_alpha(0.8);
-
+draw_clear(c_orange);
 
 // Función para centrar texto dentro de una caja y colorearla
 function draw_centered_text_in_box(box_x, box_y, text, aux) {
@@ -63,9 +63,8 @@ draw_text(50, 50, "Vidas: " + string(global.vidas));
 
 //dibujar alternativas
 for (var i = 0; i < 4; i++) {
-    // Ajusta las coordenadas según el índice `i` para organizar las alternativas en pantalla.
-    var a = (i % 2 == 0) ? 450 : 850;
-    var b = (i < 2) ? 450 : 550;
+    var a = (i % 2 == 0) ? 350 : 850;
+    var b = (i < 2) ? 350 : 550;
     draw_centered_text_in_box(a, b, alternativas[i],i);
 }
 

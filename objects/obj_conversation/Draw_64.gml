@@ -1,5 +1,9 @@
 if (global.currentDialogue != undefined) {
     // Si hay un diálogo en curso
+	
+	global.coordenadas_anterior_x = obj_player.x;
+	global.coordenadas_anterior_x = obj_player.y;
+	
 	if (global.currentMessageIndex < array_length_1d(global.currentDialogue)){
 	    var currentMessage = global.currentDialogue[global.currentMessageIndex];
 		show_debug_message(currentMessage);
@@ -29,9 +33,17 @@ if (global.currentDialogue != undefined) {
 	        global.currentMessageIndex += 1;
 			
 			if (global.nearbyNPC.tipo_npc == "jefe"){
-				if (global.contador_enemigos_derrotados < 3){
-					global.playerControl = true;
-					instance_destroy();
+				if (global.room_actual == rm_gameMain){
+					if (global.contador_enemigos_derrotados < 3){
+						global.playerControl = true;
+						instance_destroy();	
+					}	
+				}
+				else{
+					if (global.contador_enemigos_derrotados < 4){
+						global.playerControl = true;
+						instance_destroy();	
+					}	
 				}
 			}
 			
@@ -48,6 +60,7 @@ if (global.currentDialogue != undefined) {
 					//show_debug_message("id npc en conversation:")
 					//show_debug_message(global.nearbyNPC.idNPC);
 					//show_debug_message(global.nearbyNPC);
+					global.room_anterior = room;
 					room_goto(rm_problema);
 				}
 	        }

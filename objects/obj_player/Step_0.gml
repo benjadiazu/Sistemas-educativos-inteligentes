@@ -68,12 +68,13 @@ if (vx == 0 && vy == 0) {
 
 // If moving
 if (vx != 0 || vy != 0) {
-	if !collision_point(x+vx,y,obj_par_environment,true,true) {
-		x += vx;
-		}
-	if !collision_point(x,y+vy,obj_par_environment,true,true) {
-		y += vy;
-		}
+	// Verificar colisiones en la dirección del movimiento con objetos del entorno y el boss
+    if (!collision_point(x + vx, y, obj_par_environment, true, true) && !collision_point(x + vx, y,obj_par_npc, true, true)) {
+        x += vx;
+    }
+    if (!collision_point(x, y + vy, obj_par_environment, true, true) && !collision_point(x, y + vy, obj_par_npc, true, true)) {
+        y += vy;
+    }
 	
 	// Change direction based on movement
 	if (vx > 0) {
@@ -114,6 +115,7 @@ if (vx != 0 || vy != 0) {
 	
 // Check for collision with NPCs
 global.nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_npc,false,true);
+global.portal = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_portal,false,true);
 //show_debug_message(global.nearbyNPC);
 // Revisar si hay un NPC amistoso cerca
 if (global.nearbyNPC) {
@@ -131,6 +133,12 @@ if (global.nearbyNPC) {
     }
     hasShownFriendlyPrompt = false;
 }
+
+if (global.portal) {
+	instance_deactivate_all(true); // Desactiva todos los objetos
+	global.contador_enemigos_derrotados = 0;
+	room_goto_next();
+} 
 
 // Auto-choose Sprite based on state and direction
 sprite_index = playerSpr[myState][dir];

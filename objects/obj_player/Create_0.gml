@@ -1,5 +1,9 @@
 /// @description Setup and variables
+if (global.vidas == 0){
+	room_restart();	
+}
 
+global.room_actual = room;
 // Variables
 walkSpeed = 16;
 vx = 0;
@@ -27,6 +31,8 @@ startDust = 0;
 espacio_pulsado = 0;
 hasShownFriendlyPrompt = false;
 hasShownEnemyPrompt = false;
+global.portal = false;
+
 
 
 show_debug_message("contado de enemigos derrotados:");

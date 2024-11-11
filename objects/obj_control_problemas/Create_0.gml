@@ -4,6 +4,9 @@ indice_pregunta = 0;  // Índice para la pregunta actual
 pregunta_actual = 0;
 respuesta_actual = 0;
 indice = 0;
+mensaje_temporal = "";
+tiempo_mensaje = 0;
+color_mensaje = c_white;
 
 // Llamar a la función para obtener las preguntas, alternativas y respuestas del NPC
 respuestas = obtener_valores_json(global.nearbyNPC.dialogoNPC, global.nearbyNPC.idNPC, global.nearbyNPC.tipo_npc);
