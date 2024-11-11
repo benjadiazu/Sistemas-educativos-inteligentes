@@ -53,20 +53,3 @@ if (keyboard_check_pressed(vk_space)) {
     // Restablece el índice de la alternativa seleccionada a 0 para la siguiente pregunta
     indice = 0;
 }
-
-// Confirmar la selección con la tecla ENTER
-/*
-if (keyboard_check_pressed(vk_enter)) {
-    var seleccion = alternativas[opcion_seleccionada];
-    
-    //show_message("Has seleccionado: " + seleccion);
-    
-    if (seleccion == "70") {
-         show_message("¡Correcto!");
-    } else {
-         show_message("Incorrecto. Inténtalo de nuevo.");
-    }
-	room_goto_previous()
-	global.playerControl = true;
-}
-*/

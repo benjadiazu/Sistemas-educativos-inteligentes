@@ -3,37 +3,37 @@
     "id_npc1":{
       "questions": {
         "id1": {
-            "pregunta": "¿Cuanto es 2 + 2?",
+            "pregunta": "Pregunta_1_1_1",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Respuesta_1_1_1_1",
+              "op2": "Alternativa_1_1_1_2",
+              "op3": "Alternativa_1_1_1_3",
+              "op4": "Alternativa_1_1_1_4"
             },
-            "respuesta_correcta": 4
+            "respuesta_correcta": "Respuesta_1_1_1_1"
         },
         "id2": {
-            "pregunta": "¿Cuanto es 3 * 2?",
+            "pregunta": "Pregunta_1_1_2",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Alternativa_1_1_2_1",
+              "op2": "Respuesta_1_1_2_2",
+              "op3": "Alternativa_1_1_2_3",
+              "op4": "Alternativa_1_1_2_4"
             },
-            "respuesta_correcta": 6 
+            "respuesta_correcta": "Respuesta_1_1_2_2" 
         },
         "id3": {
-            "pregunta": "¿Cuanto es 3 x 3?",
+            "pregunta": "Pregunta_1_1_3",
             "opciones":
             {
-              "op1": 4,
-              "op2": 9,
-              "op3": 8,
-              "op4": 10
+              "op1": "Respuesta_1_1_3_1",
+              "op2": "Alternativa_1_1_3_2",
+              "op3": "Alternativa_1_1_3_3",
+              "op4": "Alternativa_1_1_3_4"
             },
-            "respuesta_correcta": 9
+            "respuesta_correcta": "Respuesta_1_1_3_1"
         }
       }
     }
