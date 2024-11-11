@@ -22,10 +22,19 @@ if (global.currentDialogue != undefined) {
 		}
 
 		draw_text_ext(555, (display_get_gui_height() / 2 + 200), string_copy(currentMessage, 1, ctr), -1, box);
+				
 		
 	    // Avanzar al siguiente mensaje cuando se presiona espacio
 	    if (readyForNextMessage && keyboard_check_pressed(vk_space)) {
 	        global.currentMessageIndex += 1;
+			
+			if (global.nearbyNPC.tipo_npc == "jefe"){
+				if (global.contador_enemigos_derrotados < 3){
+					global.playerControl = true;
+					instance_destroy();
+				}
+			}
+			
 	        if (global.currentMessageIndex >= array_length_1d(global.currentDialogue)) {
 				// Si ya no hay más mensajes, destruir la instancia de conversación
 	            instance_destroy();
@@ -33,12 +42,12 @@ if (global.currentDialogue != undefined) {
 				global.currentDialogue = undefined;
 				
 				//Si es enemigo o boss, se abren sus preguntas.
-				if ((global.nearbyNPC.tipo_npc == "enemigo" || global.nearbyNPC.tipo_npc == "jefe") && global.nearbyNPC.estado != "derrotado"){ 
-					show_debug_message("nombre npc en conversation:")
-					show_debug_message(global.nearbyNPC.dialogoNPC);
-					show_debug_message("id npc en conversation:")
-					show_debug_message(global.nearbyNPC.idNPC);
-					show_debug_message(global.nearbyNPC);
+				if ((global.nearbyNPC.tipo_npc == "enemigo" || global.nearbyNPC.tipo_npc == "jefe") && global.nearbyNPC.estado != "derrotado"){
+					//show_debug_message("nombre npc en conversation:")
+					//show_debug_message(global.nearbyNPC.dialogoNPC);
+					//show_debug_message("id npc en conversation:")
+					//show_debug_message(global.nearbyNPC.idNPC);
+					//show_debug_message(global.nearbyNPC);
 					room_goto(rm_problema);
 				}
 	        }

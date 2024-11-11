@@ -47,7 +47,7 @@
             {
               "op1": 4,
               "op2": 6,
-              "op3": 8,
+              "op3": 16,
               "op4": 10
             },
             "respuesta_correcta": 16
@@ -56,7 +56,7 @@
             "pregunta": "¿Cuanto es 1 + 1?",
             "opciones":
             {
-              "op1": 4,
+              "op1": 2,
               "op2": 6,
               "op3": 8,
               "op4": 10
@@ -87,7 +87,7 @@
               "op1": 4,
               "op2": 6,
               "op3": 8,
-              "op4": 10
+              "op4": 12
             },
             "respuesta_correcta": 12
         },
@@ -106,7 +106,7 @@
             "pregunta": "¿Cuanto es 1 x 1?",
             "opciones":
             {
-              "op1": 4,
+              "op1": 1,
               "op2": 6,
               "op3": 8,
               "op4": 10
@@ -120,15 +120,15 @@
   "id_npc4":{
       "questions": {
         "id1": {
-            "pregunta": "¿Cuanto es 30 x 30?",
+            "pregunta": "¿Cuanto es 10 x 10?",
             "opciones":
             {
               "op1": 4,
               "op2": 6,
               "op3": 8,
-              "op4": 10
+              "op4": 100
             },
-            "respuesta_correcta": 12
+            "respuesta_correcta": 100
         },
         "id2": {
             "pregunta": "¿Cuanto es 5 + 5?",
@@ -145,7 +145,7 @@
             "pregunta": "¿Cuanto es 1 x 1?",
             "opciones":
             {
-              "op1": 4,
+              "op1": 1,
               "op2": 6,
               "op3": 8,
               "op4": 10
@@ -159,9 +159,9 @@
               "op1": 4,
               "op2": 6,
               "op3": 8,
-              "op4": 10
+              "op4": 22
             },
-            "respuesta_correcta": 12
+            "respuesta_correcta": 22
         },
         "id5": {
             "pregunta": "¿Cuanto es 30 + 2?",
@@ -170,9 +170,9 @@
               "op1": 4,
               "op2": 6,
               "op3": 8,
-              "op4": 10
+              "op4": 32
             },
-            "respuesta_correcta": 12
+            "respuesta_correcta": 32
         }
       }
     }

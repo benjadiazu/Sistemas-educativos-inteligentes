@@ -58,6 +58,9 @@ switch (indice_pregunta) {
 //dibujar pregunta
 draw_text(450, (display_get_gui_height() / 2 - 450), pregunta_actual + "");
 
+//dibujar vidas
+draw_text(50, 50, "Vidas: " + string(global.vidas));
+
 //dibujar alternativas
 for (var i = 0; i < 4; i++) {
     // Ajusta las coordenadas según el índice `i` para organizar las alternativas en pantalla.

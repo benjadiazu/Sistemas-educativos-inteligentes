@@ -23,14 +23,19 @@ if (keyboard_check_pressed(vk_space)) {
         if (indice_pregunta >= array_length(preguntas_npc)) {
             show_debug_message("¡Todas las preguntas respondidas!");
 			global.nearbyNPC.estado = "derrotado";
+			global.contador_enemigos_derrotados += 1;
             room_goto_previous();
         }
 
     } else {
         show_debug_message("Respuesta incorrecta.");
-        //QUITAR VIDAS
+		//Descontar vidas
+		global.vidas -= 1;
+		if (global.vidas <= 0){
+			global.vidas = 3;
+			room_goto_previous()	
+		}
     }
-    
     // Restablece el índice de la alternativa seleccionada a 0 para la siguiente pregunta
     indice = 0;
 }

@@ -114,7 +114,7 @@ if (vx != 0 || vy != 0) {
 	
 // Check for collision with NPCs
 global.nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_npc,false,true);
-show_debug_message(global.nearbyNPC);
+//show_debug_message(global.nearbyNPC);
 // Revisar si hay un NPC amistoso cerca
 if (global.nearbyNPC) {
     if (!hasShownFriendlyPrompt) { // Mostrar si no se ha mostrado antes

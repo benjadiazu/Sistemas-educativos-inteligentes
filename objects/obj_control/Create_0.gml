@@ -4,6 +4,10 @@ global.dialogues = ds_map_create();
 global.currentDialogue = undefined;
 global.siguiente_id = 0;
 
+global.vidas = 3;
+global.room_actual = rm_gameMain;
+global.contador_enemigos_derrotados = 0;
+
 // Agregar los diálogos para los NPCs
 global.dialogues[? "npc_amistoso"] = [
     "¡Hola, aventurero! ¿Cómo estás?",
@@ -37,6 +41,7 @@ global.dialogues[? "npc_enemigo_3"] = [
 
 // Diálogos para los bosses
 global.dialogues[? "npc_boss_1"] = [
+	"Necesitas enfrentarte a los demás para considerarte digno.",
     "¡Finalmente llegas hasta mí, joven desafiante!",
     "No creas que será fácil derrotarme."
 ];

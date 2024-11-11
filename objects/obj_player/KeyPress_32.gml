@@ -12,14 +12,14 @@ if (global.playerControl == true) {
 			var npcID = global.nearbyNPC.idNPC;
 			var dialogues = global.dialogues[? global.nearbyNPC.dialogoNPC];
 
-			show_debug_message("Nombre del NPC:");
-			show_debug_message(global.nearbyNPC.dialogoNPC);
+			//show_debug_message("Nombre del NPC:");
+			//show_debug_message(global.nearbyNPC.dialogoNPC);
 
-			show_debug_message("dialogos del NPC:");
-			show_debug_message(dialogues);
+			//show_debug_message("dialogos del NPC:");
+			//show_debug_message(dialogues);
 			
-			show_debug_message("ID del NPC:");
-			show_debug_message(npcID);
+			//show_debug_message("ID del NPC:");
+			//show_debug_message(npcID);
 			
 			global.currentDialogue = dialogues;
 			global.currentMessageIndex = 0;
