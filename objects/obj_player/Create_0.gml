@@ -1,7 +1,8 @@
 /// @description Setup and variables
-if (global.vidas == 0){
+/*if (global.vidas == 0){
 	room_restart();	
 }
+*/
 
 global.room_actual = room;
 // Variables
@@ -33,10 +34,6 @@ hasShownFriendlyPrompt = false;
 hasShownEnemyPrompt = false;
 global.portal = false;
 
-
-
-show_debug_message("contado de enemigos derrotados:");
-show_debug_message(global.contador_enemigos_derrotados);
 
 // Create listener and set orientation
 //audio_listener_set_position(0,x,y,0);

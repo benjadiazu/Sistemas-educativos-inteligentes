@@ -12,6 +12,7 @@ sprite_id = 0;
 
 // Llamar a la función para obtener las preguntas, alternativas y respuestas del NPC
 respuestas = obtener_valores_json(global.nearbyNPC.dialogoNPC, global.nearbyNPC.idNPC, global.nearbyNPC.tipo_npc);
+show_debug_message(respuestas);
 
 // Asignar preguntas y respuestas comunes
 preguntas_npc[0] = respuestas[0];
@@ -25,6 +26,7 @@ respuestas_correctas[2] = respuestas[20];
 alternativas_pregunta_1 = [respuestas[4], respuestas[5], respuestas[6], respuestas[7]];
 alternativas_pregunta_2 = [respuestas[10], respuestas[11], respuestas[12], respuestas[13]];
 alternativas_pregunta_3 = [respuestas[16], respuestas[17], respuestas[18], respuestas[19]];
+
 
 // Si el enemigo es un jefe, cargar 3 preguntas adicionales
 if (global.nearbyNPC.tipo_npc == "jefe") {

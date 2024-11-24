@@ -6,6 +6,8 @@ global.playerControl = true;
 //townAmbienceVolume = audio_sound_get_gain(snd_townAmbience);
 global.gameOver = false;
 global.gameStart = false;
+global.room_actual = rm_gameMain;
+global.room_anterior = rm_gameMain;
 
 // Player states
 enum playerState {

@@ -1,7 +1,36 @@
 // Configuración general de color y transparencia
 draw_set_alpha(0.8);
-draw_clear(c_orange);
+draw_clear(c_gray);
 
+draw_set_color(c_white);
+draw_rectangle(0,0,display_get_width(),display_get_height()/2 - 300, false);
+
+if (global.nearbyNPC.tipo_npc == "enemigo"){
+	show_debug_message("indice pregunta:");
+	show_debug_message(indice_pregunta);
+	switch (indice_pregunta){
+		case 0:
+			draw_circle_color(650,200,15,c_black,c_black,false);
+			draw_circle_color(700,200,15,c_black,c_black,false);
+			draw_circle_color(750,200,15,c_black,c_black,false);
+			break;
+		case 1:
+			draw_circle_color(650,200,15,c_green,c_green,false);
+			draw_circle_color(700,200,15,c_black,c_black,false);
+			draw_circle_color(750,200,15,c_black,c_black,false);
+			break;
+		case 2:
+			draw_circle_color(650,200,15,c_green,c_green,false);
+			draw_circle_color(700,200,15,c_green,c_green,false);
+			draw_circle_color(750,200,15,c_black,c_black,false);
+			break;
+	}
+}
+
+//draw_set_color(c_blue);
+//draw_rectangle(0,display_get_height() / 2,display_get_width(),display_get_height(), false);
+
+draw_set_color(c_black);
 // Función para centrar texto dentro de una caja y colorearla
 function draw_centered_text_in_box(box_x, box_y, sprite_name, aux) {
 	var box_width = 220;
@@ -23,7 +52,6 @@ function draw_centered_text_in_box(box_x, box_y, sprite_name, aux) {
 
     // Dibujar texto centrado en la caja
     draw_set_color(c_black);
-	show_debug_message("asdas");
 	show_debug_message(sprite_name);
 	
 	draw_sprite(sprite_name,0,box_x+box_width/2 - 40,box_y+box_height/2 - 10);
@@ -64,42 +92,28 @@ switch (indice_pregunta) {
 	    break;
 }
 
-show_debug_message("asdasdsadas");
-show_debug_message(pregunta_actual);
-//dibujar pregunta
-draw_sprite(pregunta_actual,0,(display_get_gui_width() / 2 - 500),(display_get_gui_height() / 2 - 450));
+draw_sprite(pregunta_actual,0,(display_get_gui_width() / 2 - 450),(display_get_gui_height() / 2 - 450));
 
-//draw_text(450, (display_get_gui_height() / 2 - 450), pregunta_actual + "");
 
+
+draw_text(250, 40, "Resuelva el siguiente problema");
+
+draw_set_font(f_menu);
 //dibujar vidas
 draw_text(50, 50, "Vidas: " + string(global.vidas));
+draw_text(50, 160, "Muevete entre\nalternativas\ncon las flechas\ndel teclado");
+draw_text(1000, 160, "Preciona ESPACIO\npara seleccionar\nla alternativa");
+draw_set_font(f_dialog);
 
 //dibujar alternativas
 for (var i = 0; i < 4; i++) {
     var a = (i % 2 == 0) ? 350 : 850;
     var b = (i < 2) ? 350 : 550;
+	show_debug_message("ALTERNATIVAS");
+	show_debug_message(alternativas[i]);
     draw_centered_text_in_box(a, b, alternativas[i],i);
 }
 
 //Esto es para que se siga viendo la pregunta en pantalla
 draw_set_alpha(1);
-draw_set_color(c_white); 
-
-/*
-draw_sprite_ext(Ejercicio_ejemplo, 0, 100, 50, 0.5,0.5,0,c_white,1);
-draw_set_font(fuente);
-
-for (var i = 0; i < array_length_1d(alternativas); i++) {
-    if (i == opcion_seleccionada) {
-        draw_set_color(c_yellow); 
-    } else {
-        draw_set_color(c_white);  
-    }
-	
-	pos_x = (i % 2 == 0) ? (100) : (100 + offset_x);
-	
-    pos_y = offset_y + (floor(i / 2) * 90);
-	
-    draw_text(pos_x, pos_y, alternativas[i]); // Dibujar cada alternativa
-}
-*/
+draw_set_color(c_black); 

@@ -6,34 +6,34 @@
             "pregunta": "Pregunta_1_1_1",
             "opciones":
             {
-              "op1": "Respuesta_1_1_1_1",
-              "op2": "Alternativa_1_1_1_2",
-              "op3": "Alternativa_1_1_1_3",
-              "op4": "Alternativa_1_1_1_4"
+              "op1": "Nivel1_Enemigo1_Pregunta1_Alternativa1",
+              "op2": "Nivel1_Enemigo1_Pregunta1_Alternativa2",
+              "op3": "Nivel1_Enemigo1_Pregunta1_Correcta",
+              "op4": "Nivel1_Enemigo1_Pregunta3_Alternativa3"
             },
-            "respuesta_correcta": "Respuesta_1_1_1_1"
+            "respuesta_correcta": "Nivel1_Enemigo1_Pregunta1_Correcta"
         },
         "id2": {
             "pregunta": "Pregunta_1_1_2",
             "opciones":
             {
-              "op1": "Alternativa_1_1_2_1",
-              "op2": "Respuesta_1_1_2_2",
-              "op3": "Alternativa_1_1_2_3",
-              "op4": "Alternativa_1_1_2_4"
+              "op1": "Nivel1_Enemigo1_Pregunta2_Alternativa1",
+              "op2": "Nivel1_Enemigo1_Pregunta2_Correcta",
+              "op3": "Nivel1_Enemigo1_Pregunta2_Alternativa2",
+              "op4": "Nivel1_Enemigo1_Pregunta2_Alternativa3"
             },
-            "respuesta_correcta": "Respuesta_1_1_2_2" 
+            "respuesta_correcta": "Nivel1_Enemigo1_Pregunta2_Correcta" 
         },
         "id3": {
             "pregunta": "Pregunta_1_1_3",
             "opciones":
             {
-              "op1": "Respuesta_1_1_3_1",
-              "op2": "Alternativa_1_1_3_2",
-              "op3": "Alternativa_1_1_3_3",
-              "op4": "Alternativa_1_1_3_4"
+              "op1": "Nivel1_Enemigo1_Pregunta3_Alternativa1",
+              "op2": "Nivel1_Enemigo1_Pregunta3_Alternativa3",
+              "op3": "Nivel1_Enemigo1_Pregunta3_Correcta",
+              "op4": "Nivel1_Enemigo1_Pregunta3_Alternativa2"
             },
-            "respuesta_correcta": "Respuesta_1_1_3_1"
+            "respuesta_correcta": "Nivel1_Enemigo1_Pregunta3_Correcta"
         }
       }
     }
@@ -42,37 +42,37 @@
     "id_npc2":{
       "questions": {
         "id1": { 
-            "pregunta": "¿Cuanto es 4 x 4?",
+            "pregunta": "Pregunta_1_2_1",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 16,
-              "op4": 10
+              "op1": "Nivel1_Enemigo2_Pregunta1_Alternativa1",
+              "op2": "Nivel1_Enemigo2_Pregunta1_Alternativa2",
+              "op3": "Nivel1_Enemigo2_Pregunta1_Correcta",
+              "op4": "Nivel1_Enemigo2_Pregunta1_Alternativa3"
             },
-            "respuesta_correcta": 16
+            "respuesta_correcta": "Nivel1_Enemigo2_Pregunta1_Correcta"
         },
         "id2": {
-            "pregunta": "¿Cuanto es 1 + 1?",
+            "pregunta": "Pregunta_1_2_2",
             "opciones":
             {
-              "op1": 2,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel1_Enemigo2_Pregunta2_Alternativa1",
+              "op2": "Nivel1_Enemigo2_Pregunta2_Alternativa2",
+              "op3": "Nivel1_Enemigo2_Pregunta2_Alternativa3",
+              "op4": "Nivel1_Enemigo2_Pregunta2_Correcta"
             },
-            "respuesta_correcta": 2
+            "respuesta_correcta": "Nivel1_Enemigo2_Pregunta2_Correcta"
         },
         "id3": {
-            "pregunta": "¿Cuanto es 4 + 2?",
+            "pregunta": "Pregunta_1_2_3",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel1_Enemigo2_Pregunta3_Alternativa1",
+              "op2": "Nivel1_Enemigo2_Pregunta3_Correcta",
+              "op3": "Nivel1_Enemigo2_Pregunta3_Alternativa2",
+              "op4": "Nivel1_Enemigo2_Pregunta3_Alternativa3"
             },
-            "respuesta_correcta": 6
+            "respuesta_correcta": "Nivel1_Enemigo2_Pregunta3_Correcta"
         }
       }
     }
@@ -81,98 +81,109 @@
   "id_npc3":{
       "questions": {
         "id1": {
-            "pregunta": "¿Cuanto es 10 + 2?",
+            "pregunta": "Pregunta_1_3_1",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 12
+              "op1": "Nivel1_Enemigo3_Pregunta1_Alternativa3",
+              "op2": "Nivel1_Enemigo3_Pregunta1_Alternativa1",
+              "op3": "Nivel1_Enemigo3_Pregunta1_Alternativa2",
+              "op4": "Nivel1_Enemigo3_Pregunta1_Correcta"
             },
-            "respuesta_correcta": 12
+            "respuesta_correcta": "Nivel1_Enemigo3_Pregunta1_Correcta"
         },
         "id2": {
-            "pregunta": "¿Cuanto es 5 + 5?",
+            "pregunta": "Pregunta_1_3_2",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel1_Enemigo3_Pregunta2_Correcta",
+              "op2": "Nivel1_Enemigo3_Pregunta2_Alternativa1",
+              "op3": "Nivel1_Enemigo3_Pregunta2_Alternativa2",
+              "op4": "Nivel1_Enemigo3_Pregunta2_Alternativa3"
             },
-            "respuesta_correcta": 10
+            "respuesta_correcta": "Nivel1_Enemigo3_Pregunta2_Correcta"
         },
         "id3": {
-            "pregunta": "¿Cuanto es 1 x 1?",
+            "pregunta": "Pregunta_1_3_3",
             "opciones":
             {
-              "op1": 1,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel1_Enemigo3_Pregunta3_Alternativa2",
+              "op2": "Nivel1_Enemigo3_Pregunta3_Alternativa3",
+              "op3": "Nivel1_Enemigo3_Pregunta3_Alternativa1",
+              "op4": "Nivel1_Enemigo3_Pregunta3_Correcta"
             },
-            "respuesta_correcta": 1
+            "respuesta_correcta": "Nivel1_Enemigo3_Pregunta3_Correcta"
         }
       }
     }
   },
   "npc_boss_1": {
-  "id_npc4":{
+    "id_npc4":{
       "questions": {
         "id1": {
-            "pregunta": "¿Cuanto es 10 x 10?",
+            "pregunta": "Pregunta_1_4_1",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 100
+              "op1": "Nivel1_Jefe_Pregunta1_Alternativa3",
+              "op2": "Nivel1_Jefe_Pregunta1_Alternativa1",
+              "op3": "Nivel1_Jefe_Pregunta1_Alternativa2",
+              "op4": "Nivel1_Jefe_Pregunta1_Correcta"
             },
-            "respuesta_correcta": 100
+            "respuesta_correcta": "Nivel1_Jefe_Pregunta1_Correcta"
         },
         "id2": {
-            "pregunta": "¿Cuanto es 5 + 5?",
+            "pregunta": "Pregunta_1_4_2",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel1_Jefe_Pregunta2_Alternativa1",
+              "op2": "Nivel1_Jefe_Pregunta2_Correcta",
+              "op3": "Nivel1_Jefe_Pregunta2_Alternativa2",
+              "op4": "Nivel1_Jefe_Pregunta2_Alternativa3"
             },
-            "respuesta_correcta": 10
+            "respuesta_correcta": "Nivel1_Jefe_Pregunta2_Correcta"
         },
         "id3": {
-            "pregunta": "¿Cuanto es 1 x 1?",
+            "pregunta": "Pregunta_1_4_3",
             "opciones":
             {
-              "op1": 1,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel1_Jefe_Pregunta3_Alternativa1",
+              "op2": "Nivel1_Jefe_Pregunta3_Alternativa2",
+              "op3": "Nivel1_Jefe_Pregunta3_Alternativa3",
+              "op4": "Nivel1_Jefe_Pregunta3_Correcta"
             },
-            "respuesta_correcta": 1
+            "respuesta_correcta": "Nivel1_Jefe_Pregunta3_Correcta"
         },
         "id4": {
-            "pregunta": "¿Cuanto es 20 + 2?",
+            "pregunta": "Pregunta_1_4_4",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 22
+              "op1": "Nivel1_Jefe_Pregunta4_Correcta",
+              "op2": "Nivel1_Jefe_Pregunta4_Alternativa1",
+              "op3": "Nivel1_Jefe_Pregunta4_Alternativa2",
+              "op4": "Nivel1_Jefe_Pregunta4_Alternativa3"
             },
-            "respuesta_correcta": 22
+            "respuesta_correcta": "Nivel1_Jefe_Pregunta4_Correcta"
         },
         "id5": {
-            "pregunta": "¿Cuanto es 30 + 2?",
+            "pregunta": "Pregunta_1_4_5",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 32
+              "op1": "Nivel1_Jefe_Pregunta5_Alternativa1",
+              "op2": "Nivel1_Jefe_Pregunta5_Alternativa2",
+              "op3": "Nivel1_Jefe_Pregunta5_Alternativa3",
+              "op4": "Nivel1_Jefe_Pregunta5_Correcta"
             },
-            "respuesta_correcta": 32
+            "respuesta_correcta": "Nivel1_Jefe_Pregunta5_Correcta"
+	      },
+        "id6": {
+            "pregunta": "Pregunta_1_4_6",
+            "opciones":
+            {
+              "op1": "Nivel1_Jefe_Pregunta6_Alternativa1",
+              "op2": "Nivel1_Jefe_Pregunta6_Alternativa2",
+              "op3": "Nivel1_Jefe_Pregunta6_Correcta",
+              "op4": "Nivel1_Jefe_Pregunta6_Alternativa3"
+            },
+            "respuesta_correcta": "Nivel1_Jefe_Pregunta6_Correcta"
         }
       }
     }
@@ -181,37 +192,37 @@
     "id_npc6":{
       "questions": {
         "id1": {
-            "pregunta": "¿Cuanto es 2 + 2?",
+            "pregunta": "Pregunta_2_1_1",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel2_Enemigo1_Pregunta1_Alternativa2",
+              "op2": "Nivel2_Enemigo1_Pregunta1_Alternativa1",
+              "op3": "Nivel2_Enemigo1_Pregunta1_Alternativa3",
+              "op4": "Nivel2_Enemigo1_Pregunta1_Correcta"
             },
-            "respuesta_correcta": 4
+            "respuesta_correcta": "Nivel2_Enemigo1_Pregunta1_Correcta"
         },
         "id2": {
-            "pregunta": "¿Cuanto es 3 * 2?",
+            "pregunta": "Pregunta_2_1_2",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel2_Enemigo1_Pregunta2_Alternativa2",
+              "op2": "Nivel2_Enemigo1_Pregunta2_Alternativa3",
+              "op3": "Nivel2_Enemigo1_Pregunta2_Correcta",
+              "op4": "Nivel2_Enemigo1_Pregunta2_Alternativa1"
             },
-            "respuesta_correcta": 6 
+            "respuesta_correcta": "Nivel2_Enemigo1_Pregunta2_Correcta" 
         },
         "id3": {
-            "pregunta": "¿Cuanto es 3 x 3?",
+            "pregunta": "Pregunta_2_1_3",
             "opciones":
             {
-              "op1": 4,
-              "op2": 9,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel2_Enemigo1_Pregunta3_Correcta",
+              "op2": "Nivel2_Enemigo1_Pregunta3_Alternativa3",
+              "op3": "Nivel2_Enemigo1_Pregunta3_Alternativa1",
+              "op4": "Nivel2_Enemigo1_Pregunta3_Alternativa2"
             },
-            "respuesta_correcta": 9
+            "respuesta_correcta": "Nivel2_Enemigo1_Pregunta3_Correcta"
         }
       }
     }
@@ -220,37 +231,37 @@
     "id_npc7":{
       "questions": {
         "id1": {
-            "pregunta": "¿Cuanto es 2 + 2?",
+            "pregunta": "Pregunta_2_2_1",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel2_Enemigo2_Pregunta1_Alternativa2",
+              "op2": "Nivel2_Enemigo2_Pregunta1_Alternativa3",
+              "op3": "Nivel2_Enemigo2_Pregunta1_Alternativa1",
+              "op4": "Nivel2_Enemigo2_Pregunta1_Correcta"
             },
-            "respuesta_correcta": 4
+            "respuesta_correcta": "Nivel2_Enemigo2_Pregunta1_Correcta"
         },
         "id2": {
-            "pregunta": "¿Cuanto es 3 * 2?",
+            "pregunta": "Pregunta_2_2_2",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel2_Enemigo2_Pregunta2_Alternativa1" ,
+              "op2": "Nivel2_Enemigo2_Pregunta2_Alternativa2",
+              "op3": "Nivel2_Enemigo2_Pregunta2_Correcta",
+              "op4": "Nivel2_Enemigo2_Pregunta2_Alternativa3" 
             },
-            "respuesta_correcta": 6 
+            "respuesta_correcta": "Nivel2_Enemigo2_Pregunta2_Correcta" 
         },
         "id3": {
-            "pregunta": "¿Cuanto es 3 x 3?",
+            "pregunta": "Pregunta_2_2_3",
             "opciones":
             {
-              "op1": 4,
-              "op2": 9,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel2_Enemigo2_Pregunta3_Alternativa3",
+              "op2": "Nivel2_Enemigo2_Pregunta3_Alternativa1",
+              "op3": "Nivel2_Enemigo2_Pregunta3_Alternativa2",
+              "op4": "Nivel2_Enemigo2_Pregunta3_Correcta"
             },
-            "respuesta_correcta": 9
+            "respuesta_correcta": "Nivel2_Enemigo2_Pregunta3_Correcta"
         }
       }
     }
@@ -259,76 +270,37 @@
     "id_npc8":{
       "questions": {
         "id1": {
-            "pregunta": "¿Cuanto es 2 + 2?",
+            "pregunta": "Pregunta_2_3_1",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel2_Enemigo3_Pregunta1_Alternativa3",
+              "op2": "Nivel2_Enemigo3_Pregunta1_Alternativa1",
+              "op3": "Nivel2_Enemigo3_Pregunta1_Correcta",
+              "op4": "Nivel2_Enemigo3_Pregunta1_Alternativa2"
             },
-            "respuesta_correcta": 4
+            "respuesta_correcta": "Nivel2_Enemigo3_Pregunta1_Correcta"
         },
         "id2": {
-            "pregunta": "¿Cuanto es 3 * 2?",
+            "pregunta": "Pregunta_2_3_2",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel2_Enemigo3_Pregunta2_Alternativa2",
+              "op2": "Nivel2_Enemigo3_Pregunta2_Correcta",
+              "op3": "Nivel2_Enemigo3_Pregunta2_Alternativa3",
+              "op4": "Nivel2_Enemigo3_Pregunta2_Alternativa1"
             },
-            "respuesta_correcta": 6 
+            "respuesta_correcta": "Nivel2_Enemigo3_Pregunta2_Correcta" 
         },
         "id3": {
-            "pregunta": "¿Cuanto es 3 x 3?",
+            "pregunta": "Pregunta_2_3_3",
             "opciones":
             {
-              "op1": 4,
-              "op2": 9,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel2_Enemigo3_Pregunta3_Alternativa1",
+              "op2": "Nivel2_Enemigo3_Pregunta3_Alternativa2",
+              "op3": "Nivel2_Enemigo3_Pregunta3_Correcta",
+              "op4": "Nivel2_Enemigo3_Pregunta3_Alternativa3"
             },
-            "respuesta_correcta": 9
-        }
-      }
-    }
-  },
-  "npc_enemigo_2_4": {
-    "id_npc9":{
-      "questions": {
-        "id1": {
-            "pregunta": "¿Cuanto es 2 + 2?",
-            "opciones":
-            {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
-            },
-            "respuesta_correcta": 4
-        },
-        "id2": {
-            "pregunta": "¿Cuanto es 3 * 2?",
-            "opciones":
-            {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
-            },
-            "respuesta_correcta": 6 
-        },
-        "id3": {
-            "pregunta": "¿Cuanto es 3 x 3?",
-            "opciones":
-            {
-              "op1": 4,
-              "op2": 9,
-              "op3": 8,
-              "op4": 10
-            },
-            "respuesta_correcta": 9
+            "respuesta_correcta": "Nivel2_Enemigo3_Pregunta3_Correcta"
         }
       }
     }
@@ -337,59 +309,70 @@
   "id_npc10":{
       "questions": {
         "id1": {
-            "pregunta": "¿Cuanto es 10 x 10?",
+            "pregunta": "Pregunta_2_4_1",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 100
+              "op1": "Nivel2_Jefe_Pregunta1_Alternativa1",
+              "op2": "Nivel2_Jefe_Pregunta1_Alternativa3",
+              "op3": "Nivel2_Jefe_Pregunta1_Correcta",
+              "op4": "Nivel2_Jefe_Pregunta1_Alternativa2"
             },
-            "respuesta_correcta": 100
+            "respuesta_correcta": "Nivel2_Jefe_Pregunta1_Correcta"
         },
         "id2": {
-            "pregunta": "¿Cuanto es 5 + 5?",
+            "pregunta": "Pregunta_2_4_2",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel2_Jefe_Pregunta2_Correcta",
+              "op2": "Nivel2_Jefe_Pregunta2_Alternativa2",
+              "op3": "Nivel2_Jefe_Pregunta2_Alternativa1",
+              "op4": "Nivel2_Jefe_Pregunta2_Alternativa3"
             },
-            "respuesta_correcta": 10
+            "respuesta_correcta": "Nivel2_Jefe_Pregunta2_Correcta"
         },
         "id3": {
-            "pregunta": "¿Cuanto es 1 x 1?",
+            "pregunta": "Pregunta_2_4_3",
             "opciones":
             {
-              "op1": 1,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel2_Jefe_Pregunta3_Alternativa2",
+              "op2": "Nivel2_Jefe_Pregunta3_Correcta",
+              "op3": "Nivel2_Jefe_Pregunta3_Alternativa3",
+              "op4": "Nivel2_Jefe_Pregunta3_alternativa1"
             },
-            "respuesta_correcta": 1
+            "respuesta_correcta": "Nivel2_Jefe_Pregunta3_Correcta"
         },
         "id4": {
-            "pregunta": "¿Cuanto es 20 + 2?",
+            "pregunta": "Pregunta_2_4_4",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 22
+              "op1": "Nivel2_Jefe_Pregunta4_Correcta",
+              "op2": "Nivel2_Jefe_Pregunta4_Alternativa1",
+              "op3": "Nivel2_Jefe_Pregunta4_Alternativa2",
+              "op4": "Nivel2_Jefe_Pregunta4_Alternativa3"
             },
-            "respuesta_correcta": 22
+            "respuesta_correcta": "Nivel2_Jefe_Pregunta4_Correcta"
         },
         "id5": {
-            "pregunta": "¿Cuanto es 30 + 2?",
+            "pregunta": "Pregunta_2_4_5",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 32
+              "op1": "Nivel2_Jefe_Pregunta5_Alternativa2",
+              "op2": "Nivel2_Jefe_Pregunta5_Correcta",
+              "op3": "Nivel2_Jefe_Pregunta5_Alternativa3",
+              "op4": "Nivel2_Jefe_Pregunta5_Alternativa1"
             },
-            "respuesta_correcta": 32
+            "respuesta_correcta": "Nivel2_Jefe_Pregunta5_Correcta"
+        },
+	      "id6": {
+	          "pregunta": "Pregunta_2_4_6",
+	          "opciones":
+            {
+              "op1": "Nivel2_Jefe_Pregunta6_Alternativa3",
+              "op2": "Nivel2_Jefe_Pregunta6_Alternativa1",
+              "op3": "Nivel2_Jefe_Pregunta6_Alternativa2",
+              "op4": "Nivel2_Jefe_Pregunta6_Correcta"
+            },
+            "respuesta_correcta": "Nivel2_Jefe_Pregunta6_Correcta"
         }
       }
     }
@@ -398,37 +381,37 @@
     "id_npc11":{
       "questions": {
         "id1": {
-            "pregunta": "¿Cuanto es 2 + 2?",
+            "pregunta": "Pregunta_3_1_1",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel3_Enemigo1_Pregunta1_Correcta",
+              "op2": "Nivel3_Enemigo1_Pregunta1_Alternativa2",
+              "op3": "Nivel3_Enemigo1_Pregunta1_Alternativa3",
+              "op4": "Nivel3_Enemigo1_Pregunta1_Alternativa1"
             },
-            "respuesta_correcta": 4
+            "respuesta_correcta": "Nivel3_Enemigo1_Pregunta1_Correcta"
         },
         "id2": {
-            "pregunta": "¿Cuanto es 3 * 2?",
+            "pregunta": "Pregunta_3_1_2",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel3_Enemigo1_Pregunta2_Alternativa3",
+              "op2": "Nivel3_Enemigo1_Pregunta2_Correcta",
+              "op3": "Nivel3_Enemigo1_Pregunta2_Alternativa2",
+              "op4": "Nivel3_Enemigo1_Pregunta2_Alternativa1"
             },
-            "respuesta_correcta": 6 
+            "respuesta_correcta": "Nivel3_Enemigo1_Pregunta2_Correcta"
         },
         "id3": {
-            "pregunta": "¿Cuanto es 3 x 3?",
+            "pregunta": "Pregunta_3_1_3",
             "opciones":
             {
-              "op1": 4,
-              "op2": 9,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel3_Enemigo1_Pregunta3_Alternativa1",
+              "op2": "Nivel3_Enemigo1_Pregunta3_Alternativa2",
+              "op3": "Nivel3_Enemigo1_Pregunta3_Alternativa3",
+              "op4": "Nivel3_Enemigo1_Pregunta3_Correcta"
             },
-            "respuesta_correcta": 9
+            "respuesta_correcta": "Nivel3_Enemigo1_Pregunta3_Correcta"
         }
       }
     }
@@ -437,115 +420,37 @@
     "id_npc12":{
       "questions": {
         "id1": {
-            "pregunta": "¿Cuanto es 2 + 2?",
+            "pregunta": "Pregunta_3_2_1",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel3_Enemigo2_Pregunta1_Alternativa1",
+              "op2": "Nivel3_Enemigo2_Pregunta1_Correcta",
+              "op3": "Nivel3_Enemigo2_Pregunta1_Alternativa2",
+              "op4": "Nivel3_Enemigo2_Pregunta1_Alternativa3"
             },
-            "respuesta_correcta": 4
+            "respuesta_correcta": "Nivel3_Enemigo2_Pregunta1_Correcta"
         },
         "id2": {
-            "pregunta": "¿Cuanto es 3 * 2?",
+            "pregunta": "Pregunta_3_2_2",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel3_Enemigo2_Pregunta2_Correcta",
+              "op2": "Nivel3_Enemigo2_Pregunta2_Alternativa1",
+              "op3": "Nivel3_Enemigo2_Pregunta2_Alternativa3",
+              "op4": "Nivel3_Enemigo2_Pregunta2_Alternativa2"
             },
-            "respuesta_correcta": 6 
+            "respuesta_correcta": "Nivel3_Enemigo2_Pregunta2_Correcta"
         },
         "id3": {
-            "pregunta": "¿Cuanto es 3 x 3?",
+            "pregunta": "Pregunta_3_2_3",
             "opciones":
             {
-              "op1": 4,
-              "op2": 9,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel3_Enemigo2_Pregunta3_Alternativa2",
+              "op2": "Nivel3_Enemigo2_Pregunta3_Alternativa3",
+              "op3": "Nivel3_Enemigo2_Pregunta3_Correcta",
+              "op4": "Nivel3_Enemigo2_Pregunta3_Alternativa1"
             },
-            "respuesta_correcta": 9
-        }
-      }
-    }
-  },
-  "npc_enemigo_3_3": {
-    "id_npc13":{
-      "questions": {
-        "id1": {
-            "pregunta": "¿Cuanto es 2 + 2?",
-            "opciones":
-            {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
-            },
-            "respuesta_correcta": 4
-        },
-        "id2": {
-            "pregunta": "¿Cuanto es 3 * 2?",
-            "opciones":
-            {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
-            },
-            "respuesta_correcta": 6 
-        },
-        "id3": {
-            "pregunta": "¿Cuanto es 3 x 3?",
-            "opciones":
-            {
-              "op1": 4,
-              "op2": 9,
-              "op3": 8,
-              "op4": 10
-            },
-            "respuesta_correcta": 9
-        }
-      }
-    }
-  },
-  "npc_enemigo_3_4": {
-    "id_npc14":{
-      "questions": {
-        "id1": {
-            "pregunta": "¿Cuanto es 2 + 2?",
-            "opciones":
-            {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
-            },
-            "respuesta_correcta": 4
-        },
-        "id2": {
-            "pregunta": "¿Cuanto es 3 * 2?",
-            "opciones":
-            {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
-            },
-            "respuesta_correcta": 6 
-        },
-        "id3": {
-            "pregunta": "¿Cuanto es 3 x 3?",
-            "opciones":
-            {
-              "op1": 4,
-              "op2": 9,
-              "op3": 8,
-              "op4": 10
-            },
-            "respuesta_correcta": 9
+            "respuesta_correcta": "Nivel3_Enemigo2_Pregunta3_Correcta"
         }
       }
     }
@@ -554,59 +459,70 @@
   "id_npc15":{
       "questions": {
         "id1": {
-            "pregunta": "¿Cuanto es 10 x 10?",
+            "pregunta": "Pregunta_3_3_1",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 100
+              "op1": "Nivel3_Jefe_Pregunta1_Alternativa2",
+              "op2": "Nivel3_Jefe_Pregunta1_Alternativa3",
+              "op3": "Nivel3_Jefe_Pregunta1_Alternativa1",
+              "op4": "Nivel3_Jefe_Pregunta1_Correcta"
             },
-            "respuesta_correcta": 100
+            "respuesta_correcta": "Nivel3_Jefe_Pregunta1_Correcta"
         },
         "id2": {
-            "pregunta": "¿Cuanto es 5 + 5?",
+            "pregunta": "Pregunta_3_3_2",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel3_Jefe_Pregunta2_Correcta",
+              "op2": "Nivel3_Jefe_Pregunta2_Alternativa1",
+              "op3": "Nivel3_Jefe_Pregunta2_Alternativa2",
+              "op4": "Nivel3_Jefe_Pregunta2_Alternativa3"
             },
-            "respuesta_correcta": 10
+            "respuesta_correcta": "Nivel3_Jefe_Pregunta2_Correcta"
         },
         "id3": {
-            "pregunta": "¿Cuanto es 1 x 1?",
+            "pregunta": "Pregunta_3_3_3",
             "opciones":
             {
-              "op1": 1,
-              "op2": 6,
-              "op3": 8,
-              "op4": 10
+              "op1": "Nivel3_Jefe_Pregunta3_Alternativa2",
+              "op2": "Nivel3_Jefe_Pregunta3_Alternativa3",
+              "op3": "Nivel3_Jefe_Pregunta3_Correcta",
+              "op4": "Nivel3_Jefe_Pregunta3_Alternativa1"
             },
-            "respuesta_correcta": 1
+            "respuesta_correcta": "Nivel3_Jefe_Pregunta3_Correcta"
         },
         "id4": {
-            "pregunta": "¿Cuanto es 20 + 2?",
+            "pregunta": "Pregunta_3_3_4",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 22
+              "op1": "Nivel3_Jefe_Pregunta4_Alternativa1",
+              "op2": "Nivel3_Jefe_Pregunta4_Correcta",
+              "op3": "Nivel3_Jefe_Pregunta4_Alternativa3",
+              "op4": "Nivel3_Jefe_Pregunta4_Alternativa2"
             },
-            "respuesta_correcta": 22
+            "respuesta_correcta": "Nivel3_Jefe_Pregunta4_Correcta"
         },
         "id5": {
-            "pregunta": "¿Cuanto es 30 + 2?",
+            "pregunta": "Pregunta_3_3_5",
             "opciones":
             {
-              "op1": 4,
-              "op2": 6,
-              "op3": 8,
-              "op4": 32
+              "op1": "Nivel3_Jefe_Pregunta5_Alternativa2",
+              "op2": "Nivel3_Jefe_Pregunta5_Alternativa1",
+              "op3": "Nivel3_Jefe_Pregunta5_Correcta",
+              "op4": "Nivel3_Jefe_Pregunta5_Alternativa3"
             },
-            "respuesta_correcta": 32
+            "respuesta_correcta": "Nivel3_Jefe_Pregunta5_Correcta"
+        },
+        "id6": {
+            "pregunta": "Pregunta_3_3_6",
+            "opciones":
+            {
+              "op1": "Nivel3_Jefe_Pregunta6_Correcta",
+              "op2": "Nivel3_Jefe_Pregunta6_Alternativa1",
+              "op3": "Nivel3_Jefe_Pregunta6_Alternativa2",
+              "op4": "Nivel3_Jefe_Pregunta6_Alternativa3"
+            },
+            "respuesta_correcta": "Nivel3_Jefe_Pregunta6_Correcta"
         }
       }
     }

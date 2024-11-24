@@ -1,6 +1,6 @@
 if (global.currentDialogue != undefined) {
-    // Si hay un diálogo en curso
 	
+    // Si hay un diálogo en curso
 	global.coordenadas_anterior_x = obj_player.x;
 	global.coordenadas_anterior_x = obj_player.y;
 	
@@ -13,6 +13,7 @@ if (global.currentDialogue != undefined) {
 	    draw_set_font(f_dialog);
 	    draw_set_halign(fa_left);	
 	    draw_set_valign(fa_top);
+		
 		draw_text(545, 655, string(global.nearbyNPC.nombreNPC) + "");
 	    
 	    // Control de avance del texto
@@ -31,18 +32,25 @@ if (global.currentDialogue != undefined) {
 	    // Avanzar al siguiente mensaje cuando se presiona espacio
 	    if (readyForNextMessage && keyboard_check_pressed(vk_space)) {
 	        global.currentMessageIndex += 1;
-			
+			var current_room = room;
+			var room_name = room_get_name(current_room)
+
 			if (global.nearbyNPC.tipo_npc == "jefe"){
-				if (global.room_actual == rm_gameMain){
-					if (global.contador_enemigos_derrotados < 3){
-						global.playerControl = true;
-						instance_destroy();	
-					}	
+				if (global.contador_enemigos_derrotados < 3 and room_name == "rm_gameMain"){
+					global.playerControl = true;
+					instance_destroy();
 				}
 				else{
-					if (global.contador_enemigos_derrotados < 4){
+					if (global.contador_enemigos_derrotados < 3 and room_name == "rm_nivel2"){
+						show_debug_message("TIENE QUE BORRARSE ACAAAAA");
 						global.playerControl = true;
-						instance_destroy();	
+						instance_destroy();
+					}
+					else {
+						if (global.contador_enemigos_derrotados < 2 and room_name == "rm_nivel3"){
+							global.playerControl = true;
+							instance_destroy();
+						}	
 					}	
 				}
 			}
@@ -55,11 +63,6 @@ if (global.currentDialogue != undefined) {
 				
 				//Si es enemigo o boss, se abren sus preguntas.
 				if ((global.nearbyNPC.tipo_npc == "enemigo" || global.nearbyNPC.tipo_npc == "jefe") && global.nearbyNPC.estado != "derrotado"){
-					//show_debug_message("nombre npc en conversation:")
-					//show_debug_message(global.nearbyNPC.dialogoNPC);
-					//show_debug_message("id npc en conversation:")
-					//show_debug_message(global.nearbyNPC.idNPC);
-					//show_debug_message(global.nearbyNPC);
 					global.room_anterior = room;
 					room_goto(rm_problema);
 				}

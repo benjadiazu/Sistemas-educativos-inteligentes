@@ -1,5 +1,4 @@
 /// @description Player movement, more
-
 // Check keys for movement
 if (global.playerControl == true) {
 	if (keyboard_check(vk_right) || keyboard_check(vk_left) || keyboard_check(vk_up) || keyboard_check(vk_down)){
@@ -116,6 +115,8 @@ if (vx != 0 || vy != 0) {
 // Check for collision with NPCs
 global.nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_npc,false,true);
 global.portal = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_portal,false,true);
+
+//show_debug_message("prueba");
 //show_debug_message(global.nearbyNPC);
 // Revisar si hay un NPC amistoso cerca
 if (global.nearbyNPC) {
@@ -134,10 +135,12 @@ if (global.nearbyNPC) {
     hasShownFriendlyPrompt = false;
 }
 
-if (global.portal) {
+if (global.portal) {;
 	instance_deactivate_all(true); // Desactiva todos los objetos
 	global.contador_enemigos_derrotados = 0;
 	room_goto_next();
+	global.currentDialogue = undefined;
+	show_debug_message("pasa aqui");
 } 
 
 // Auto-choose Sprite based on state and direction

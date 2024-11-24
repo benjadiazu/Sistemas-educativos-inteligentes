@@ -32,6 +32,8 @@ if (keyboard_check_pressed(vk_space)) {
             show_debug_message("¡Todas las preguntas respondidas!");
 			global.nearbyNPC.estado = "derrotado";
 			global.contador_enemigos_derrotados += 1;
+			global.npc_estados[? global.nearbyNPC.id] = "derrotado";
+			instance_destroy();
             room_goto(global.room_anterior);
         }
 
@@ -47,6 +49,8 @@ if (keyboard_check_pressed(vk_space)) {
 		global.vidas -= 1;
 		if (global.vidas <= 0){
 			global.vidas = 3;
+			global.npc_estados[? global.nearbyNPC.id] = "derrotado";
+			instance_destroy();
 			room_goto(global.room_anterior);
 		}
     }

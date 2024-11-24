@@ -15,6 +15,8 @@ function obtener_valores_json(_nombre_npc, _id_npc,_tipo_npc){
 	// Pregunta 1
 	pregunta_1 = asset_get_index(aux_map[? _nombre_npc][? "id_npc" + string(_id_npc)][? "questions"][? "id1"][? "pregunta"]);
 	id_pregunta_1 = "id" + string(1);
+	show_debug_message("=========PREGUNTA 1======");
+	show_debug_message(pregunta_1);
 
 	opcion1_1 = asset_get_index(aux_map[? _nombre_npc][? "id_npc" + string(_id_npc)][? "questions"][? "id1"][? "opciones"][? "op1"]);
 	opcion1_2 = asset_get_index(aux_map[? _nombre_npc][? "id_npc" + string(_id_npc)][? "questions"][? "id1"][? "opciones"][? "op2"]);

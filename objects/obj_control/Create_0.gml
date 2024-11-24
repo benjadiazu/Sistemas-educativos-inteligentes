@@ -5,8 +5,6 @@ global.currentDialogue = undefined;
 global.siguiente_id = 0;
 
 global.vidas = 3;
-global.room_actual = rm_gameMain;
-global.room_anterior = rm_gameMain;
 global.coordenadas_anterior_x = 0;
 global.coordenadas_anterior_y = 0;
 global.contador_enemigos_derrotados = 0;
