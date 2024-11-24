@@ -94,3 +94,4 @@ global.dialogues[? "npc_boss_3"] = [
 ];
 
 show_debug_message("dialogos creados.");
+

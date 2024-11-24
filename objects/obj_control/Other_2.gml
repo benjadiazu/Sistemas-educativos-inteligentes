@@ -9,6 +9,9 @@ global.gameStart = false;
 global.room_actual = rm_gameMain;
 global.room_anterior = rm_gameMain;
 
+
+
+
 // Player states
 enum playerState {
 	idle,
@@ -46,3 +49,4 @@ enum npcState {
 	}
 
 global.map_preguntas = preguntas();
+
