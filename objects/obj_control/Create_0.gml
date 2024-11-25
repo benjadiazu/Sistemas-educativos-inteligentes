@@ -9,6 +9,10 @@ global.coordenadas_anterior_x = 0;
 global.coordenadas_anterior_y = 0;
 global.contador_enemigos_derrotados = 0;
 
+global.intentos = "";
+global.intentos_id = 0;
+
+
 // Agregar los diálogos para los NPCs
 global.dialogues[? "npc_amistoso"] = [
     "¡Hola, aventurero! ¿Cómo estás?",
@@ -93,5 +97,5 @@ global.dialogues[? "npc_boss_3"] = [
     "No creas que será fácil derrotarme."
 ];
 
-show_debug_message("dialogos creados.");
+//show_debug_message("dialogos creados.");
 

@@ -112,6 +112,7 @@
     {"id":{"name":"obj_npc_enemigo_jefe1","path":"objects/obj_npc_enemigo_jefe1/obj_npc_enemigo_jefe1.yy",},},
     {"id":{"name":"obj_npc_enemigo_jefe2","path":"objects/obj_npc_enemigo_jefe2/obj_npc_enemigo_jefe2.yy",},},
     {"id":{"name":"obj_npc_enemigo_jefe3","path":"objects/obj_npc_enemigo_jefe3/obj_npc_enemigo_jefe3.yy",},},
+    {"id":{"name":"obj_panel_status","path":"objects/obj_panel_status/obj_panel_status.yy",},},
     {"id":{"name":"obj_par_environment","path":"objects/obj_par_environment/obj_par_environment.yy",},},
     {"id":{"name":"obj_par_item","path":"objects/obj_par_item/obj_par_item.yy",},},
     {"id":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},},

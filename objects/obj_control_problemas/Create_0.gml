@@ -1,3 +1,7 @@
+if (!instance_exists(obj_panel_status)) {
+    instance_create_layer(0, 0, "GUI", obj_panel_status);
+}
+
 preguntas_npc = [];
 respuestas_correctas = [];
 indice_pregunta = 0;  // Índice para la pregunta actual
@@ -9,10 +13,14 @@ tiempo_mensaje = 0;
 color_mensaje = c_white;
 sprite_id_pregunta = 0;
 sprite_id = 0;
+good_questions = 0;
+bad_questions = 0;
+finished_process = false;
+global.respuestas_jugador = []
+numero_de_intento_jugador = 0;
 
 // Llamar a la función para obtener las preguntas, alternativas y respuestas del NPC
 respuestas = obtener_valores_json(global.nearbyNPC.dialogoNPC, global.nearbyNPC.idNPC, global.nearbyNPC.tipo_npc);
-show_debug_message(respuestas);
 
 // Asignar preguntas y respuestas comunes
 preguntas_npc[0] = respuestas[0];

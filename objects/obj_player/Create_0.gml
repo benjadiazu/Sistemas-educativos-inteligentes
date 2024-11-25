@@ -1,8 +1,8 @@
 /// @description Setup and variables
-/*if (global.vidas == 0){
-	room_restart();	
+if (global.vidas == 0){
+	room_restart();
+	global.vidas = 3;
 }
-*/
 
 global.room_actual = room;
 // Variables

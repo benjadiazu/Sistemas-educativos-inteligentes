@@ -140,7 +140,7 @@ if (global.portal) {;
 	global.contador_enemigos_derrotados = 0;
 	room_goto_next();
 	global.currentDialogue = undefined;
-	show_debug_message("pasa aqui");
+	//show_debug_message("pasa aqui");
 } 
 
 // Auto-choose Sprite based on state and direction

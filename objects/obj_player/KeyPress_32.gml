@@ -7,9 +7,9 @@ var _text, _seq, _text_instance;
 if (global.playerControl == true) {
     // Si hay un NPC cerca
     if (global.nearbyNPC) {
-			show_debug_message("Hay un npc al lado");
+			//show_debug_message("Hay un npc al lado");
 			//global.playerControl = false; //para que el jugador se quede quieto
-			show_debug_message(global.nearbyNPC.idNPC);
+			//show_debug_message(global.nearbyNPC.idNPC);
 			var npcID = global.nearbyNPC.idNPC;
 			var dialogues = global.dialogues[? global.nearbyNPC.dialogoNPC];
 

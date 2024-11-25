@@ -23,4 +23,4 @@ var t_ = global.nombre_jugador;
 if(t_ == "") t_ = "Player";
 draw_text(500,700, t_);
 
-show_debug_message("Nombre guardado: "+ global.nombre_jugador);
+//show_debug_message("Nombre guardado: "+ global.nombre_jugador);

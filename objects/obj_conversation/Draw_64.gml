@@ -6,7 +6,7 @@ if (global.currentDialogue != undefined) {
 	
 	if (global.currentMessageIndex < array_length_1d(global.currentDialogue)){
 	    var currentMessage = global.currentDialogue[global.currentMessageIndex];
-		show_debug_message(currentMessage);
+		//show_debug_message(currentMessage);
 	
 	    // Mostrar el texto actual
 	    draw_sprite(msg_box, 0, 500, (display_get_gui_height()/2)+100);
@@ -42,7 +42,7 @@ if (global.currentDialogue != undefined) {
 				}
 				else{
 					if (global.contador_enemigos_derrotados < 3 and room_name == "rm_nivel2"){
-						show_debug_message("TIENE QUE BORRARSE ACAAAAA");
+						//show_debug_message("TIENE QUE BORRARSE ACAAAAA");
 						global.playerControl = true;
 						instance_destroy();
 					}

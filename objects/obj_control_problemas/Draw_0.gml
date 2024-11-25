@@ -6,8 +6,8 @@ draw_set_color(c_white);
 draw_rectangle(0,0,display_get_width(),display_get_height()/2 - 300, false);
 
 if (global.nearbyNPC.tipo_npc == "enemigo"){
-	show_debug_message("indice pregunta:");
-	show_debug_message(indice_pregunta);
+	//show_debug_message("indice pregunta:");
+	//show_debug_message(indice_pregunta);
 	switch (indice_pregunta){
 		case 0:
 			draw_circle_color(650,200,15,c_black,c_black,false);
@@ -24,6 +24,60 @@ if (global.nearbyNPC.tipo_npc == "enemigo"){
 			draw_circle_color(700,200,15,c_green,c_green,false);
 			draw_circle_color(750,200,15,c_black,c_black,false);
 			break;
+	}
+}
+else {
+	if (global.nearbyNPC.tipo_npc == "jefe"){
+		switch (indice_pregunta){
+		case 0:
+			draw_circle_color(550,200,15,c_black,c_black,false);
+			draw_circle_color(600,200,15,c_black,c_black,false);
+			draw_circle_color(650,200,15,c_black,c_black,false);
+			draw_circle_color(700,200,15,c_black,c_black,false);
+			draw_circle_color(750,200,15,c_black,c_black,false);
+			draw_circle_color(800,200,15,c_black,c_black,false);
+			break;
+		case 1:
+			draw_circle_color(550,200,15,c_green,c_green,false);
+			draw_circle_color(600,200,15,c_black,c_black,false);
+			draw_circle_color(650,200,15,c_black,c_black,false);
+			draw_circle_color(700,200,15,c_black,c_black,false);
+			draw_circle_color(750,200,15,c_black,c_black,false);
+			draw_circle_color(800,200,15,c_black,c_black,false);
+			break;
+		case 2:
+			draw_circle_color(550,200,15,c_green,c_green,false);
+			draw_circle_color(600,200,15,c_green,c_green,false);
+			draw_circle_color(650,200,15,c_black,c_black,false);
+			draw_circle_color(700,200,15,c_black,c_black,false);
+			draw_circle_color(750,200,15,c_black,c_black,false);
+			draw_circle_color(800,200,15,c_black,c_black,false);
+			break;
+		case 3:
+			draw_circle_color(550,200,15,c_green,c_green,false);
+			draw_circle_color(600,200,15,c_green,c_green,false);
+			draw_circle_color(650,200,15,c_green,c_green,false);
+			draw_circle_color(700,200,15,c_black,c_black,false);
+			draw_circle_color(750,200,15,c_black,c_black,false);
+			draw_circle_color(800,200,15,c_black,c_black,false);
+			break;
+		case 4:
+			draw_circle_color(550,200,15,c_green,c_green,false);
+			draw_circle_color(600,200,15,c_green,c_green,false);
+			draw_circle_color(650,200,15,c_green,c_green,false);
+			draw_circle_color(700,200,15,c_green,c_green,false);
+			draw_circle_color(750,200,15,c_black,c_black,false);
+			draw_circle_color(800,200,15,c_black,c_black,false);
+			break;
+		case 5:
+			draw_circle_color(550,200,15,c_green,c_green,false);
+			draw_circle_color(600,200,15,c_green,c_green,false);
+			draw_circle_color(650,200,15,c_green,c_green,false);
+			draw_circle_color(700,200,15,c_green,c_green,false);
+			draw_circle_color(750,200,15,c_green,c_green,false);
+			draw_circle_color(800,200,15,c_black,c_black,false);
+			break;
+		}	
 	}
 }
 
@@ -52,7 +106,7 @@ function draw_centered_text_in_box(box_x, box_y, sprite_name, aux) {
 
     // Dibujar texto centrado en la caja
     draw_set_color(c_black);
-	show_debug_message(sprite_name);
+	//show_debug_message(sprite_name);
 	
 	draw_sprite(sprite_name,0,box_x+box_width/2 - 40,box_y+box_height/2 - 10);
     //draw_text(box_x + (box_width - text_width) / 2, box_y + (box_height - text_height) / 2, text);
@@ -109,8 +163,8 @@ draw_set_font(f_dialog);
 for (var i = 0; i < 4; i++) {
     var a = (i % 2 == 0) ? 350 : 850;
     var b = (i < 2) ? 350 : 550;
-	show_debug_message("ALTERNATIVAS");
-	show_debug_message(alternativas[i]);
+	//show_debug_message("ALTERNATIVAS");
+	//show_debug_message(alternativas[i]);
     draw_centered_text_in_box(a, b, alternativas[i],i);
 }
 

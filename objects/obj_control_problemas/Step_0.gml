@@ -19,40 +19,25 @@ if (keyboard_check_pressed(vk_right)) {
 if (keyboard_check_pressed(vk_space)) {
     // Verifica si la alternativa seleccionada es la correcta
     if (alternativas[indice] == respuesta_actual) {
-        show_debug_message("¡Respuesta correcta!");
+		show_debug_message("¡Respuesta correcta!");
 		audio_play_sound(correct, 0, 0, 1.0, undefined, 1.0);
         mensaje_temporal = "¡Respuesta correcta!";
         color_mensaje = c_green;  // Color verde para respuesta correcta
         tiempo_mensaje = 120; // Mostrar mensaje durante 120 frames
 		
-        // Pasa a la siguiente pregunta
-        indice_pregunta++;
-        
-        if (indice_pregunta >= array_length(preguntas_npc)) {
-            show_debug_message("¡Todas las preguntas respondidas!");
-			global.nearbyNPC.estado = "derrotado";
-			global.contador_enemigos_derrotados += 1;
-			global.npc_estados[? global.nearbyNPC.id] = "derrotado";
-			instance_destroy();
-            room_goto(global.room_anterior);
-        }
+		alarm[0] = 1; // Respuesta correcta
 
     } else {
-        show_debug_message("Respuesta incorrecta.");
+        show_debug_message("==========Respuesta incorrecta==========");
 		audio_play_sound(incorrect, 0, 0, 1.0, undefined, 1.0);
 		mensaje_temporal = "Respuesta incorrecta, intentalo de nuevo.";
 		color_mensaje = c_red;
 		tiempo_mensaje = 120;
+		//show_debug_message("pre alarm 1 en el evento step")
+		alarm[1] = 1; // respuesta incorrecta
 		
 		
-		//Descontar vidas
-		global.vidas -= 1;
-		if (global.vidas <= 0){
-			global.vidas = 3;
-			global.npc_estados[? global.nearbyNPC.id] = "derrotado";
-			instance_destroy();
-			room_goto(global.room_anterior);
-		}
+		
     }
     // Restablece el índice de la alternativa seleccionada a 0 para la siguiente pregunta
     indice = 0;

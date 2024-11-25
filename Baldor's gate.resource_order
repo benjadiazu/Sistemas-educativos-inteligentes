@@ -85,6 +85,7 @@
     {"name":"obj_npc_enemigo_jefe1","order":8,"path":"objects/obj_npc_enemigo_jefe1/obj_npc_enemigo_jefe1.yy",},
     {"name":"obj_npc_enemigo_jefe2","order":13,"path":"objects/obj_npc_enemigo_jefe2/obj_npc_enemigo_jefe2.yy",},
     {"name":"obj_npc_enemigo_jefe3","order":14,"path":"objects/obj_npc_enemigo_jefe3/obj_npc_enemigo_jefe3.yy",},
+    {"name":"obj_panel_status","order":11,"path":"objects/obj_panel_status/obj_panel_status.yy",},
     {"name":"obj_par_environment","order":1,"path":"objects/obj_par_environment/obj_par_environment.yy",},
     {"name":"obj_par_npc","order":3,"path":"objects/obj_par_npc/obj_par_npc.yy",},
     {"name":"obj_piedra","order":14,"path":"objects/obj_piedra/obj_piedra.yy",},
