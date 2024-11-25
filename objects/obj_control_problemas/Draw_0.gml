@@ -146,15 +146,27 @@ switch (indice_pregunta) {
 	    break;
 }
 
-draw_sprite(pregunta_actual,0,(display_get_gui_width() / 2 - 450),(display_get_gui_height() / 2 - 450));
+draw_sprite(pregunta_actual,0,(display_get_gui_width() / 2 - 250),(display_get_gui_height() / 2 - 450));
 
-/*
-switch (global.nearbyNPC.dialogoNPC){
-	case "npc_enemigo_1":
-		draw_text(250, 40, "Resuelva el siguiente problema");
+
+if (global.nearbyNPC.dialogoNPC == "npc_enemigo_1"){
+	draw_text(250, 40, "Representar en lenguaje algebraico");
 }
-*/
-draw_text(250, 40, "Resuelva el siguiente problema");
+if (global.nearbyNPC.dialogoNPC == "npc_enemigo_2"){
+	draw_text(250, 40, "Representar en lenguaje natural");
+}
+if (global.nearbyNPC.dialogoNPC == "npc_enemigo_3"){
+	draw_text(250, 40, "Reemplaza los valores de x");
+}
+if (global.nearbyNPC.dialogoNPC == "npc_enemigo_2_1" or global.nearbyNPC.dialogoNPC == "npc_enemigo_2_2" or global.nearbyNPC.dialogoNPC == "npc_enemigo_2_3"){
+	draw_text(250, 40, "Reducir terminos semejantes");
+}
+if (global.nearbyNPC.dialogoNPC == "npc_enemigo_3_1" or global.nearbyNPC.dialogoNPC == "npc_enemigo_3_2" or global.nearbyNPC.dialogoNPC == "npc_enemigo_3_3"){
+	draw_text(250, 40, "Resuelve la ecuación lineal");
+}
+if (global.nearbyNPC.dialogoNPC == "npc_boss_1" or global.nearbyNPC.dialogoNPC == "npc_boss_2" or global.nearbyNPC.dialogoNPC == "npc_boss_3"){
+	draw_text(250, 40, "Resuelva el siguiente problema");
+}
 
 draw_set_font(f_menu);
 //dibujar vidas

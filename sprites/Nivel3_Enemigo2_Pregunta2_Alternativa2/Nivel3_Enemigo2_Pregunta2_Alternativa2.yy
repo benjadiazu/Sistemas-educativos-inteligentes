@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Nivel3_Enemigo2_Pregunta2_Alternativa2",
   "bboxMode":0,
-  "bbox_bottom":20,
+  "bbox_bottom":22,
   "bbox_left":0,
-  "bbox_right":52,
+  "bbox_right":71,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"18ceea73-914f-49c6-8aea-afd9164f7a3a","name":"18ceea73-914f-49c6-8aea-afd9164f7a3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8c5ac9f0-e0c5-4a97-9865-dbac40d96067","name":"8c5ac9f0-e0c5-4a97-9865-dbac40d96067","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":21,
+  "height":23,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ea6c4ae4-0f5a-4e5f-b523-cd4bbb9ea5fe","blendMode":0,"displayName":"default","isLocked":false,"name":"ea6c4ae4-0f5a-4e5f-b523-cd4bbb9ea5fe","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"59ffbbe0-56d9-4396-be88-ca4de5baf52b","blendMode":0,"displayName":"default","isLocked":false,"name":"59ffbbe0-56d9-4396-be88-ca4de5baf52b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Nivel3_Enemigo2_Pregunta2_Alternativa2",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"18ceea73-914f-49c6-8aea-afd9164f7a3a","path":"sprites/Nivel3_Enemigo2_Pregunta2_Alternativa2/Nivel3_Enemigo2_Pregunta2_Alternativa2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0577ea66-8898-43d3-9d5f-7ba78f8d8d89","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c5ac9f0-e0c5-4a97-9865-dbac40d96067","path":"sprites/Nivel3_Enemigo2_Pregunta2_Alternativa2/Nivel3_Enemigo2_Pregunta2_Alternativa2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"12266a26-b84f-49db-b19f-812c3070446a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":53,
+  "width":72,
 }

@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0495d19c-6bd3-4a68-b9b7-55a3d0d0d754","name":"0495d19c-6bd3-4a68-b9b7-55a3d0d0d754","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d8a3b217-6d8e-4bfe-a4f4-19679f85e45b","name":"d8a3b217-6d8e-4bfe-a4f4-19679f85e45b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":22,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a625ab35-3299-4293-8b58-ab5eac32ff4b","blendMode":0,"displayName":"default","isLocked":false,"name":"a625ab35-3299-4293-8b58-ab5eac32ff4b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"46e135bb-272b-4e7d-b072-3315f83843d3","blendMode":0,"displayName":"default","isLocked":false,"name":"46e135bb-272b-4e7d-b072-3315f83843d3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Nivel3_Enemigo1_Pregunta1_Correcta",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0495d19c-6bd3-4a68-b9b7-55a3d0d0d754","path":"sprites/Nivel3_Enemigo1_Pregunta1_Correcta/Nivel3_Enemigo1_Pregunta1_Correcta.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d22cc3b6-7cb0-427b-8b37-2b3d5a5ea07e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d8a3b217-6d8e-4bfe-a4f4-19679f85e45b","path":"sprites/Nivel3_Enemigo1_Pregunta1_Correcta/Nivel3_Enemigo1_Pregunta1_Correcta.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c72f2738-2414-4b5d-a0c5-fda665643246","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

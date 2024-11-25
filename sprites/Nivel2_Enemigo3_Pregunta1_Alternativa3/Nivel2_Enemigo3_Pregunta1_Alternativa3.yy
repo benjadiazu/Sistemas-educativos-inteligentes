@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"34cb1b9c-841e-4d90-ad71-b841c0e49c61","name":"34cb1b9c-841e-4d90-ad71-b841c0e49c61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6c1e227a-ea07-4fae-9417-672db2aced7d","name":"6c1e227a-ea07-4fae-9417-672db2aced7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":22,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c260118e-efe2-41f9-bb2c-74b559911847","blendMode":0,"displayName":"default","isLocked":false,"name":"c260118e-efe2-41f9-bb2c-74b559911847","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5fc60ab3-c46b-4cd4-93da-9f4ae2679e1a","blendMode":0,"displayName":"default","isLocked":false,"name":"5fc60ab3-c46b-4cd4-93da-9f4ae2679e1a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Nivel2_Enemigo3_Pregunta1_Alternativa3",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"34cb1b9c-841e-4d90-ad71-b841c0e49c61","path":"sprites/Nivel2_Enemigo3_Pregunta1_Alternativa3/Nivel2_Enemigo3_Pregunta1_Alternativa3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"74f0ed6c-32af-4252-b153-46069928932b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c1e227a-ea07-4fae-9417-672db2aced7d","path":"sprites/Nivel2_Enemigo3_Pregunta1_Alternativa3/Nivel2_Enemigo3_Pregunta1_Alternativa3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"52c2c9f7-f864-4c9a-8eb4-0e0536aff518","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

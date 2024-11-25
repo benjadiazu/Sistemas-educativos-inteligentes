@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5c7a74f6-0655-4241-89bb-97207a1aec8f","name":"5c7a74f6-0655-4241-89bb-97207a1aec8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"41a03388-8eaf-4a7d-aa80-264de5d71b25","name":"41a03388-8eaf-4a7d-aa80-264de5d71b25","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":40,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1d201401-8a5b-4c00-bc41-6181efcc9b9c","blendMode":0,"displayName":"default","isLocked":false,"name":"1d201401-8a5b-4c00-bc41-6181efcc9b9c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4e878196-b61e-4af4-ba20-21db9ba72ad6","blendMode":0,"displayName":"default","isLocked":false,"name":"4e878196-b61e-4af4-ba20-21db9ba72ad6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Nivel2_Jefe_Pregunta5_Alternativa3",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c7a74f6-0655-4241-89bb-97207a1aec8f","path":"sprites/Nivel2_Jefe_Pregunta5_Alternativa3/Nivel2_Jefe_Pregunta5_Alternativa3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1ccc82e2-4501-4764-9574-3e1cbd867997","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"41a03388-8eaf-4a7d-aa80-264de5d71b25","path":"sprites/Nivel2_Jefe_Pregunta5_Alternativa3/Nivel2_Jefe_Pregunta5_Alternativa3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"616ca365-bb6e-4b4b-b09b-ef5deace75ed","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

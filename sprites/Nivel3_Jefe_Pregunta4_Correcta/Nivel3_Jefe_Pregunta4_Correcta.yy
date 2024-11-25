@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Nivel3_Jefe_Pregunta4_Correcta",
   "bboxMode":0,
-  "bbox_bottom":19,
+  "bbox_bottom":21,
   "bbox_left":0,
-  "bbox_right":69,
+  "bbox_right":71,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ac9eeb26-48c0-4b42-bf6f-077e98d64458","name":"ac9eeb26-48c0-4b42-bf6f-077e98d64458","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5827eda9-8c0f-4880-88e1-a4fe9d3967d5","name":"5827eda9-8c0f-4880-88e1-a4fe9d3967d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":20,
+  "height":22,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b72e69a3-d0f7-41f8-b243-537dc16a020b","blendMode":0,"displayName":"default","isLocked":false,"name":"b72e69a3-d0f7-41f8-b243-537dc16a020b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"66f019f7-f0c5-4b02-b748-fef1550cf64b","blendMode":0,"displayName":"default","isLocked":false,"name":"66f019f7-f0c5-4b02-b748-fef1550cf64b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Nivel3_Jefe_Pregunta4_Correcta",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac9eeb26-48c0-4b42-bf6f-077e98d64458","path":"sprites/Nivel3_Jefe_Pregunta4_Correcta/Nivel3_Jefe_Pregunta4_Correcta.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ab30d517-1c94-46e0-b9eb-0cbbc13987e4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5827eda9-8c0f-4880-88e1-a4fe9d3967d5","path":"sprites/Nivel3_Jefe_Pregunta4_Correcta/Nivel3_Jefe_Pregunta4_Correcta.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"06876829-c700-42b8-bc52-f545ed2684c2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":70,
+  "width":72,
 }
