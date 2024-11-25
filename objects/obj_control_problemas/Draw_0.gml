@@ -148,8 +148,12 @@ switch (indice_pregunta) {
 
 draw_sprite(pregunta_actual,0,(display_get_gui_width() / 2 - 450),(display_get_gui_height() / 2 - 450));
 
-
-
+/*
+switch (global.nearbyNPC.dialogoNPC){
+	case "npc_enemigo_1":
+		draw_text(250, 40, "Resuelva el siguiente problema");
+}
+*/
 draw_text(250, 40, "Resuelva el siguiente problema");
 
 draw_set_font(f_menu);
@@ -163,8 +167,7 @@ draw_set_font(f_dialog);
 for (var i = 0; i < 4; i++) {
     var a = (i % 2 == 0) ? 350 : 850;
     var b = (i < 2) ? 350 : 550;
-	//show_debug_message("ALTERNATIVAS");
-	//show_debug_message(alternativas[i]);
+	
     draw_centered_text_in_box(a, b, alternativas[i],i);
 }
 

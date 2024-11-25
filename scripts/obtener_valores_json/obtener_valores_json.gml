@@ -46,7 +46,9 @@ function obtener_valores_json(_nombre_npc, _id_npc,_tipo_npc){
 	opcion3_4 = asset_get_index(aux_map[? _nombre_npc][? "id_npc" + string(_id_npc)][? "questions"][? "id3"][? "opciones"][? "op4"]);
 
 	respuesta_3 = asset_get_index(aux_map[? _nombre_npc][? "id_npc" + string(_id_npc)][? "questions"][? "id" + string(3)][? "respuesta_correcta"]);
-
+	//show_debug_message("====probando_pregunta3_opcion4====");
+	//show_debug_message(opcion3_4);
+	
 	// Si el NPC es un jefe
 	if (_tipo_npc == "jefe") {
 	    // Pregunta 4
