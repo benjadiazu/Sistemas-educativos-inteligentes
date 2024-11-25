@@ -14,7 +14,7 @@ if (global.currentDialogue != undefined) {
 	    draw_set_halign(fa_left);	
 	    draw_set_valign(fa_top);
 		
-		draw_text(545, 655, string(global.nearbyNPC.nombreNPC) + "");
+		draw_text(530, 655, string(global.nearbyNPC.nombreNPC) + "");
 	    
 	    // Control de avance del texto
 	    if (ctr <= string_length(currentMessage)) {

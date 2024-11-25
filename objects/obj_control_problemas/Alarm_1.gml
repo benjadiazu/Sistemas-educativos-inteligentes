@@ -1,4 +1,4 @@
-show_debug_message("====ALARMA 1=====");
+//show_debug_message("====ALARMA 1=====");
 
 obj_panel_status.question_status[numero_de_intento_jugador] = 1;
 
@@ -9,7 +9,6 @@ show_debug_message(global.respuestas_jugador);
 
 numero_de_intento_jugador++;
 bad_questions++; // Incrementar preguntas incorrectas
-// Activar el siguiente paso o retroalimentación
 
 alarm[2] = 1;
 

@@ -4,7 +4,6 @@ if (global.vidas == 0){
 	global.vidas = 3;
 }
 
-global.room_actual = room;
 // Variables
 walkSpeed = 16;
 vx = 0;

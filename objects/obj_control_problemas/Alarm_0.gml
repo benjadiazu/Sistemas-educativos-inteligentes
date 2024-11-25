@@ -12,6 +12,9 @@ numero_de_intento_jugador++;
 // Revisar si se completaron todas las preguntas
 if (indice_pregunta >= array_length(preguntas_npc)) {
     show_debug_message("¡Todas las preguntas respondidas!");
+	if (global.nearbyNPC.tipo_npc == "jefe"){
+		global.contador_bosses++;
+	}
     global.nearbyNPC.estado = "derrotado";
     global.contador_enemigos_derrotados++;
     global.npc_estados[? global.nearbyNPC.id] = "derrotado";

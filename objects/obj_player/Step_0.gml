@@ -98,7 +98,8 @@ if (vx != 0 || vy != 0) {
 	else {
 		myState = playerState.carrying;
 		}
-		
+	
+	/*
 	// Set my listener if Sequence is playing
 	if (instance_exists(obj_control) && obj_control.sequenceState == seqState.playing) {
 		var _camX = camera_get_view_x(view_camera[0])+floor(camera_get_view_width(view_camera[0])*0.5);
@@ -110,6 +111,7 @@ if (vx != 0 || vy != 0) {
 		// Otherwise, move audio listener with me
 		audio_listener_set_position(0,x,y,0);
 		}
+	*/
 	}
 	
 // Check for collision with NPCs
@@ -141,8 +143,17 @@ if (global.portal) {;
 	room_goto_next();
 	global.currentDialogue = undefined;
 	//show_debug_message("pasa aqui");
-} 
+}
 
+//show_debug_message(global.contador_bosses);
+if (global.contador_bosses == 3){
+	show_debug_message("ENTRA A ESTA PARTE DEL FINAL DEL JUEGO")
+	// Exportar las respuestas del jugador
+	if(global.intentos != undefined && global.intentos != noone) {
+	    scr_exportar("respuestas_" + global.nombre_jugador, global.intentos);
+	}
+	room_goto(rm_gracias)
+}
 // Auto-choose Sprite based on state and direction
 sprite_index = playerSpr[myState][dir];
 

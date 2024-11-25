@@ -88,6 +88,7 @@
     {"id":{"name":"obj_dust","path":"objects/obj_dust/obj_dust.yy",},},
     {"id":{"name":"obj_fence01","path":"objects/obj_fence01/obj_fence01.yy",},},
     {"id":{"name":"obj_fountain01","path":"objects/obj_fountain01/obj_fountain01.yy",},},
+    {"id":{"name":"obj_gracias","path":"objects/obj_gracias/obj_gracias.yy",},},
     {"id":{"name":"obj_input_menu","path":"objects/obj_input_menu/obj_input_menu.yy",},},
     {"id":{"name":"obj_item01","path":"objects/obj_item01/obj_item01.yy",},},
     {"id":{"name":"obj_item02","path":"objects/obj_item02/obj_item02.yy",},},
@@ -126,6 +127,7 @@
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"obj_tree01","path":"objects/obj_tree01/obj_tree01.yy",},},
     {"id":{"name":"rm_gameMain","path":"rooms/rm_gameMain/rm_gameMain.yy",},},
+    {"id":{"name":"rm_gracias","path":"rooms/rm_gracias/rm_gracias.yy",},},
     {"id":{"name":"rm_mainTitle","path":"rooms/rm_mainTitle/rm_mainTitle.yy",},},
     {"id":{"name":"rm_nivel2","path":"rooms/rm_nivel2/rm_nivel2.yy",},},
     {"id":{"name":"rm_nivel3","path":"rooms/rm_nivel3/rm_nivel3.yy",},},
@@ -450,6 +452,7 @@
     {"roomId":{"name":"rm_nivel2","path":"rooms/rm_nivel2/rm_nivel2.yy",},},
     {"roomId":{"name":"rm_nivel3","path":"rooms/rm_nivel3/rm_nivel3.yy",},},
     {"roomId":{"name":"rm_problema","path":"rooms/rm_problema/rm_problema.yy",},},
+    {"roomId":{"name":"rm_gracias","path":"rooms/rm_gracias/rm_gracias.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
