@@ -3,6 +3,7 @@ global.map_preguntas = undefined;
 global.dialogues = ds_map_create();
 global.currentDialogue = undefined;
 global.siguiente_id = 0;
+global.juego_terminado = false;
 
 global.vidas = 3;
 global.coordenadas_anterior_x = 0;

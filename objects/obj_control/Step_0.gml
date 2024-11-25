@@ -1,22 +1,12 @@
-/// @description Inserte aquí la descripción
-/*
-show_debug_message("Entra a paso en obj control!!!")
-if (escritura) {
-  
-    var letra = keyboard_lastchar;
-    if (string_length(global.nombre_jugador) < 20 && letra != "") {
-        global.nombre_jugador += letra;
+if (room == "rm_nivel3" and obj_npc_enemigo_jefe3.estado == "derrotado"){
+	// Exportar las respuestas del jugador
+    if(global.intentos != undefined && global.intentos != noone) {
+        scr_exportar("respuestas_" + global.nombre_jugador, global.intentos);
     }
-
-    // Eliminar el último carácter con Backspace
-    if (keyboard_check_pressed(vk_backspace) && string_length(global.nombre_jugador) > 0) {
-        global.nombre_jugador = string_delete(global.nombre_jugador, string_length(global.nombre_jugador), 1);
-    }
-
-    // Finalizar con Enter
-    if (keyboard_check_pressed(vk_enter)) {
-        escritura = false; 
-        show_debug_message("Nombre guardado: " + global.nombre_jugador);
-    }
+    
+    global.juego_terminado = true;
+   
+    show_message("Juego Terminado\nGracias por jugar");
+    
+    room_goto(rm_mainTitle);
 }
-*/
