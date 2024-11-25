@@ -87,8 +87,8 @@ else {
 draw_set_color(c_black);
 // Función para centrar texto dentro de una caja y colorearla
 function draw_centered_text_in_box(box_x, box_y, sprite_name, aux) {
-	var box_width = 220;
-	var box_height = 50;
+	var box_width = 350;
+	var box_height = 150;
 
     var text_width = string_width(sprite_name);
     var text_height = string_height(sprite_name);
@@ -108,7 +108,7 @@ function draw_centered_text_in_box(box_x, box_y, sprite_name, aux) {
     draw_set_color(c_black);
 	//show_debug_message(sprite_name);
 	
-	draw_sprite(sprite_name,0,box_x+box_width/2 - 40,box_y+box_height/2 - 10);
+	draw_sprite(sprite_name,0,box_x+box_width/2,box_y+box_height/2 - 10);
     //draw_text(box_x + (box_width - text_width) / 2, box_y + (box_height - text_height) / 2, text);
 }
 
@@ -177,8 +177,8 @@ draw_set_font(f_dialog);
 
 //dibujar alternativas
 for (var i = 0; i < 4; i++) {
-    var a = (i % 2 == 0) ? 350 : 850;
-    var b = (i < 2) ? 350 : 550;
+    var a = (i % 2 == 0) ? 325 : 750;
+    var b = (i < 2) ? 325 : 550;
 	
     draw_centered_text_in_box(a, b, alternativas[i],i);
 }
